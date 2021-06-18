@@ -7,7 +7,7 @@ import { JitsiModal } from '../../base/modal';
 import { connect } from '../../base/redux';
 import { HELP_VIEW_MODAL_ID } from '../constants';
 
-const DEFAULT_HELP_CENTRE_URL = 'https://web-cdn.jitsi.net/faq/meet-faq.html';
+const DEFAULT_HELP_CENTRE_URL = 'https://docs.grammm.com/meet';
 
 type Props = {
 
@@ -48,7 +48,7 @@ class HelpView extends PureComponent<Props> {
  */
 function _mapStateToProps(state) {
     return {
-        _url: state['features/base/config'].helpCentreURL || DEFAULT_HELP_CENTRE_URL
+        _url: DEFAULT_HELP_CENTRE_URL
     };
 }
 
