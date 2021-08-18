@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet;
+package com.grommunio.meet;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -173,6 +173,7 @@
     "validate": "npm ls",
     "start": "make dev",
     "ios": "react-native run-ios",
-    "android": "react-native run-android"
+    "android": "react-native run-android",
+    "watchman": "watchman watch-del-all && watchman shutdown-server"
   }
 }
