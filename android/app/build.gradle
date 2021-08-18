@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'org.jitsi.meet'
+        applicationId 'com.grommunio.meet'
         versionCode vcode
         versionName project.appVersion
 
@@ -40,6 +40,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            storeFile file('grommunio-keystore.keystore')
+            storePassword 'insert_store_pw'
+            keyAlias 'grommunio-keystore'
+            keyPassword 'insert_store_pw'
+        }
     }
 
     buildTypes {
@@ -50,6 +56,7 @@ android {
         release {
             // Uncomment the following line for singing a test release build.
             //signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules-release.pro'
             buildConfigField "boolean", "GOOGLE_SERVICES_ENABLED", "${googleServicesEnabled}"
