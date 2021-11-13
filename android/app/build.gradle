@@ -41,10 +41,10 @@ android {
             keyPassword 'android'
         }
         release {
-            storeFile file('grommunio-keystore.keystore')
-            storePassword 'insert_store_pw'
-            keyAlias 'grommunio-keystore'
-            keyPassword 'insert_store_pw'
+            storeFile file("grommunio-keystore.keystore")
+            storePassword GROMMUNIO_CHAT_RELEASE_PASSWORD // Configure in $HOME/.gradle/gradle.properties
+            keyAlias GROMMUNIO_CHAT_RELEASE_KEY_ALIAS // Configure in $HOME/.gradle/gradle.properties
+            keyPassword GROMMUNIO_CHAT_RELEASE_PASSWORD
         }
     }
 
