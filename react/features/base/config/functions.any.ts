@@ -225,13 +225,13 @@ export function isUnifiedPlanEnabled(state: IState): boolean {
 }
 
 /**
- * Restores a Jitsi Meet config.js from {@code localStorage} if it was
+ * Restores a grommunio Meet config.js from {@code localStorage} if it was
  * previously downloaded from a specific {@code baseURL} and stored with
  * {@link storeConfig}.
  *
  * @param {string} baseURL - The base URL from which the config.js was
  * previously downloaded and stored with {@code storeConfig}.
- * @returns {?Object} The Jitsi Meet config.js which was previously downloaded
+ * @returns {?Object} The grommunio Meet config.js which was previously downloaded
  * from {@code baseURL} and stored with {@code storeConfig} if it was restored;
  * otherwise, {@code undefined}.
  */
@@ -277,7 +277,7 @@ export function setConfigFromURLParams(
     // params = {
     //     "config.disableAudioLevels": false,
     //     "config.channelLastN": -1,
-    //     "interfaceConfig.APP_NAME": "Jitsi Meet"
+    //     "interfaceConfig.APP_NAME": "grommunio Meet"
     // }
     // We want to have:
     // json = {
@@ -286,7 +286,7 @@ export function setConfigFromURLParams(
     //         "channelLastN": -1
     //     },
     //     interfaceConfig: {
-    //         "APP_NAME": "Jitsi Meet"
+    //         "APP_NAME": "grommunio Meet"
     //     }
     // }
     config && (json.config = {});

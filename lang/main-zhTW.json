@@ -441,7 +441,7 @@
         "answer": "接通",
         "audioCallTitle": "來電",
         "decline": "拒接",
-        "productLabel": "來自 Jitsi Meet",
+        "productLabel": "來自 grommunio Meet",
         "videoCallTitle": "視訊來電"
     },
     "info": {
@@ -1332,7 +1332,7 @@
         "go": "開始",
         "goSmall": "開始",
         "headerSubtitle": "安全且高品質的會議",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "grommunio Meet",
         "info": "資訊",
         "jitsiOnMobile": "Jitsi 手機應用程式 – 下載應用程式，不論何時何地都能發起會議",
         "join": "建立/加入",

@@ -441,7 +441,7 @@
         "answer": "Responder",
         "audioCallTitle": "Chamada recebida",
         "decline": "Recusar",
-        "productLabel": "do Jitsi Meet",
+        "productLabel": "do grommunio Meet",
         "videoCallTitle": "Chamada de vídeo recebida"
     },
     "info": {
@@ -687,7 +687,7 @@
         "noiseSuppressionFailedTitle": "Falha ao iniciar a supressão de ruído",
         "noiseSuppressionNoTrackDescription": "Por favor, ligue primeiro o seu microfone.",
         "noiseSuppressionStereoDescription": "A supressão do ruído de áudio estéreo não é atualmente suportada.",
-        "oldElectronClientDescription1": "Parece estar a utilizar uma versão antiga do cliente Jitsi Meet que tem vulnerabilidades de segurança conhecidas. Por favor, certifique-se de que actualiza a nossa ",
+        "oldElectronClientDescription1": "Parece estar a utilizar uma versão antiga do cliente grommunio Meet que tem vulnerabilidades de segurança conhecidas. Por favor, certifique-se de que actualiza a nossa ",
         "oldElectronClientDescription2": "compilação mais recente",
         "oldElectronClientDescription3": " agora!",
         "participantWantsToJoin": "Deseja juntar-se à reunião",
@@ -1327,7 +1327,7 @@
         "go": "IR",
         "goSmall": "IR",
         "headerSubtitle": "Reuniões com segurança e alta qualidade",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "grommunio Meet",
         "info": "Informações",
         "jitsiOnMobile": "Jitsi em dispositivos móveis – descarregue as nossas aplicações e inicie uma reunião em qualquer lugar",
         "join": "CRIAR / ENTRAR",
@@ -1335,7 +1335,7 @@
             "calendar": "Logo do Calendário",
             "desktopPreviewThumbnail": "Miniatura de Visualização do Desktop",
             "googleLogo": "Logo do Google",
-            "logoDeepLinking": "Logo do Jitsi Meet",
+            "logoDeepLinking": "Logo do grommunio Meet",
             "microsoftLogo": "Logo da Microsoft",
             "policyLogo": "Logo da Política de Privacidade"
         },

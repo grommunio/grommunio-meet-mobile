@@ -414,7 +414,7 @@
         "answer": "Përgjigjuni",
         "audioCallTitle": "Thirrje ardhëse",
         "decline": "Hidhe tej",
-        "productLabel": "nga Jitsi Meet",
+        "productLabel": "nga grommunio Meet",
         "videoCallTitle": "Thirrje ardhëse me video"
     },
     "info": {
@@ -638,7 +638,7 @@
         "newDeviceAction": "Përdore",
         "newDeviceAudioTitle": "U pikas pajisje audio e re",
         "newDeviceCameraTitle": "U pikas kamerë e re",
-        "oldElectronClientDescription1": "Duket se përdorni një version të vjetër të klientit Jitsi Meet, i cili ka cenueshmëri sigurie që njihen. Ju lutemi, siguroni përditësimin me ",
+        "oldElectronClientDescription1": "Duket se përdorni një version të vjetër të klientit grommunio Meet, i cili ka cenueshmëri sigurie që njihen. Ju lutemi, siguroni përditësimin me ",
         "oldElectronClientDescription2": "montimin tonë më të ri",
         "oldElectronClientDescription3": " që tani!",
         "participantWantsToJoin": "Dëshiron të hyjë në takim",
@@ -1216,7 +1216,7 @@
         "go": "SHKO",
         "goSmall": "SHKO",
         "headerSubtitle": "Takime me siguri dhe me cilësi të lartë",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "grommunio Meet",
         "info": "Hollësi për t’i rënë numrit",
         "jitsiOnMobile": "Jitsi në celular – Shkarkoni aplikacionet tona dhe nisni një takim prej ngado",
         "join": "KRIJONI / MERRNI PJESË",

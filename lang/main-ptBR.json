@@ -390,7 +390,7 @@
         "answer": "Responder",
         "audioCallTitle": "Chamada recebida",
         "decline": "Dispensar",
-        "productLabel": "do Jitsi Meet",
+        "productLabel": "do grommunio Meet",
         "videoCallTitle": "Chamada de vídeo recebida"
     },
     "info": {
@@ -605,7 +605,7 @@
         "newDeviceAction": "Usar",
         "newDeviceAudioTitle": "Novo dispositivo de áudio detectado",
         "newDeviceCameraTitle": "Nova câmera detectada",
-        "oldElectronClientDescription1": "Você está usando um versão antiga do cliente Jitsi Meet que possui uma conhecida vulnerabilidade de segurança. Por favor tenha certeza de atulizar para a nossa ",
+        "oldElectronClientDescription1": "Você está usando um versão antiga do cliente grommunio Meet que possui uma conhecida vulnerabilidade de segurança. Por favor tenha certeza de atulizar para a nossa ",
         "oldElectronClientDescription2": "última versão",
         "oldElectronClientDescription3": " agora!",
         "passwordRemovedRemotely": "$t(lockRoomPasswordUppercase) removido por outro participante",
@@ -1138,7 +1138,7 @@
         "go": "IR",
         "goSmall": "IR",
         "headerSubtitle": "Reuniões com segurança e alta qualidade",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "grommunio Meet",
         "info": "Informações",
         "jitsiOnMobile": "Jitsi em dispositivos móveis – baixe nossos aplicativos e inicie uma reunião em qualquer lugar",
         "join": "CRIAR / ENTRAR",
@@ -1146,7 +1146,7 @@
             "calendar": "Logo do Calendário",
             "desktopPreviewThumbnail": "Miniatura de Visualização do Desktop",
             "googleLogo": "Logo do Google",
-            "logoDeepLinking": "Logo do Jitsi Meet",
+            "logoDeepLinking": "Logo do grommunio Meet",
             "microsoftLogo": "Logo da Microsoft",
             "policyLogo": "Logo da Política de Privacidade"
         },

@@ -306,7 +306,7 @@
         "answer": "Answer",
         "audioCallTitle": "Incoming call",
         "decline": "Dismiss",
-        "productLabel": "from Jitsi Meet",
+        "productLabel": "from grommunio Meet",
         "videoCallTitle": "Incoming video call"
     },
     "info": {
@@ -460,7 +460,7 @@
         "newDeviceAction": "Use",
         "newDeviceAudioTitle": "New audio device detected",
         "newDeviceCameraTitle": "New camera detected",
-        "oldElectronClientDescription1": "You appear to be using an old verion of the Jitsi Meet client which has known security vulnerabilities. Please make sure you update to our ",
+        "oldElectronClientDescription1": "You appear to be using an old verion of the grommunio Meet client which has known security vulnerabilities. Please make sure you update to our ",
         "oldElectronClientDescription2": "latest build",
         "oldElectronClientDescription3": " now!",
         "passwordRemovedRemotely": "$t(lockRoomPasswordUppercase) removed by another participant",

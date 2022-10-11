@@ -163,7 +163,7 @@ function _parseCalendarEntry(event, knownDomains) {
 }
 
 /**
- * Retrieves a Jitsi Meet URL from an event if present.
+ * Retrieves a grommunio Meet URL from an event if present.
  *
  * @param {Object} event - The event to parse.
  * @param {Array<string>} knownDomains - The known domain names.

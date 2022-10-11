@@ -25,7 +25,7 @@ import com.facebook.react.ReactNativeHost;
 import com.grommunio.meet.sdk.JitsiReactNativeHost;
 
 /**
- * Application class for Jitsi Meet. The only reason why this exists is for Detox
+ * Application class for grommunio Meet. The only reason why this exists is for Detox
  * to believe our app is a "greenfield" app. SDK users need not use this.
  */
 public class MainApplication extends Application implements ReactApplication {

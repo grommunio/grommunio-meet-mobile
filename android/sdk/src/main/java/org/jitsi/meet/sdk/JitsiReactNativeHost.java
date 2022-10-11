@@ -12,7 +12,7 @@ import java.util.List;
  * This is the minimal implementation of ReactNativeHost that will make things like the
  * Detox testing framework believe we are a "greenfield" app.
  *
- * Generally speaking, apps using the SDK (other than the Jitsi Meet app itself) should not
+ * Generally speaking, apps using the SDK (other than the grommunio Meet app itself) should not
  * need to use this because the
  */
 public class JitsiReactNativeHost extends ReactNativeHost {

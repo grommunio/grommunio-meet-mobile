@@ -413,7 +413,7 @@
         "answer": "Uèi",
         "audioCallTitle": "Sonada entranta",
         "decline": "Regetar",
-        "productLabel": "de Jitsi Meet estant",
+        "productLabel": "de grommunio Meet estant",
         "videoCallTitle": "Sonada vidèo entranta"
     },
     "info": {
@@ -637,7 +637,7 @@
         "newDeviceAction": "Utilizar",
         "newDeviceAudioTitle": "Nòu periferic àudio detectat",
         "newDeviceCameraTitle": "Nòva camèra detectada",
-        "oldElectronClientDescription1": "Sembla qu’utilizatz una version anciana del client Jitsi Meet qu’es conegut per conténer de problèmas de seguretat. Mercés de vos assegurar de metre a jorn ",
+        "oldElectronClientDescription1": "Sembla qu’utilizatz una version anciana del client grommunio Meet qu’es conegut per conténer de problèmas de seguretat. Mercés de vos assegurar de metre a jorn ",
         "oldElectronClientDescription2": "darrièra compilacion",
         "oldElectronClientDescription3": " ara !",
         "participantWantsToJoin": "Vòl rejónher la reünion",
@@ -1212,7 +1212,7 @@
         "go": "Crear",
         "goSmall": "Crear",
         "headerSubtitle": "Conferéncias securizadas e de Nauta qualitat",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "grommunio Meet",
         "info": "Infor",
         "jitsiOnMobile": "Jitsi sus mobil –telecargatz nòstra aplicacion e començatz de conferéncias de pertot",
         "join": "CREAR / REJÓNHER",

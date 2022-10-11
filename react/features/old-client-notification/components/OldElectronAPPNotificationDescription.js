@@ -16,7 +16,7 @@ type Props = {
 };
 
 /**
- * A component that renders the description of the notification for old Jitsi Meet Electron clients.
+ * A component that renders the description of the notification for old grommunio Meet Electron clients.
  *
  * @augments AbstractApp
  */
