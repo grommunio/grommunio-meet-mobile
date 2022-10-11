@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -32,7 +32,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import com.facebook.react.modules.core.PermissionListener;
 
 import org.wonday.orientation.OrientationActivityLifecycle;
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 
 import java.util.HashMap;
 
@@ -51,7 +51,7 @@ public class JitsiMeetActivity extends AppCompatActivity
 
     protected static final String TAG = JitsiMeetActivity.class.getSimpleName();
 
-    private static final String ACTION_JITSI_MEET_CONFERENCE = "org.jitsi.meet.CONFERENCE";
+    private static final String ACTION_JITSI_MEET_CONFERENCE = "com.grommunio.meet.CONFERENCE";
     private static final String JITSI_MEET_CONFERENCE_OPTIONS = "JitsiMeetConferenceOptions";
 
     private final BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {

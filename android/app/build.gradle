@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'org.jitsi.meet'
+        applicationId 'com.grommunio.meet'
         versionCode vcode
         versionName project.appVersion
 

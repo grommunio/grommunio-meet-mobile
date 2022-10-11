@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet;
+package com.grommunio.meet;
 
 import android.app.Application;
 import android.util.Log;
@@ -22,7 +22,7 @@ import android.util.Log;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 
-import org.jitsi.meet.sdk.JitsiReactNativeHost;
+import com.grommunio.meet.sdk.JitsiReactNativeHost;
 
 /**
  * Application class for Jitsi Meet. The only reason why this exists is for Detox

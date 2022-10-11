@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.content.Context;
 import android.net.wifi.WifiInfo;
@@ -26,7 +26,7 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.module.annotations.ReactModule;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

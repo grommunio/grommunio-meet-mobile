@@ -1,4 +1,4 @@
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -19,7 +19,7 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.module.annotations.ReactModule;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 
 /**
  * The react-native side of Jitsi Meet's {@link ConnectionService}. Exposes

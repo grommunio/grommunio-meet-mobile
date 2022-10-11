@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -25,7 +25,7 @@ import androidx.annotation.RequiresApi;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 
 
 /**

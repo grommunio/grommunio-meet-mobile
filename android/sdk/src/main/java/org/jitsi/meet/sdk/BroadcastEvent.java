@@ -1,11 +1,11 @@
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import com.facebook.react.bridge.ReadableMap;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 
 import java.util.HashMap;
 
@@ -75,19 +75,19 @@ public class BroadcastEvent {
     }
 
     public enum Type {
-        CONFERENCE_JOINED("org.jitsi.meet.CONFERENCE_JOINED"),
-        CONFERENCE_TERMINATED("org.jitsi.meet.CONFERENCE_TERMINATED"),
-        CONFERENCE_WILL_JOIN("org.jitsi.meet.CONFERENCE_WILL_JOIN"),
-        AUDIO_MUTED_CHANGED("org.jitsi.meet.AUDIO_MUTED_CHANGED"),
-        PARTICIPANT_JOINED("org.jitsi.meet.PARTICIPANT_JOINED"),
-        PARTICIPANT_LEFT("org.jitsi.meet.PARTICIPANT_LEFT"),
-        ENDPOINT_TEXT_MESSAGE_RECEIVED("org.jitsi.meet.ENDPOINT_TEXT_MESSAGE_RECEIVED"),
-        SCREEN_SHARE_TOGGLED("org.jitsi.meet.SCREEN_SHARE_TOGGLED"),
-        PARTICIPANTS_INFO_RETRIEVED("org.jitsi.meet.PARTICIPANTS_INFO_RETRIEVED"),
-        CHAT_MESSAGE_RECEIVED("org.jitsi.meet.CHAT_MESSAGE_RECEIVED"),
-        CHAT_TOGGLED("org.jitsi.meet.CHAT_TOGGLED"),
-        VIDEO_MUTED_CHANGED("org.jitsi.meet.VIDEO_MUTED_CHANGED"),
-        READY_TO_CLOSE("org.jitsi.meet.READY_TO_CLOSE");
+        CONFERENCE_JOINED("com.grommunio.meet.CONFERENCE_JOINED"),
+        CONFERENCE_TERMINATED("com.grommunio.meet.CONFERENCE_TERMINATED"),
+        CONFERENCE_WILL_JOIN("com.grommunio.meet.CONFERENCE_WILL_JOIN"),
+        AUDIO_MUTED_CHANGED("com.grommunio.meet.AUDIO_MUTED_CHANGED"),
+        PARTICIPANT_JOINED("com.grommunio.meet.PARTICIPANT_JOINED"),
+        PARTICIPANT_LEFT("com.grommunio.meet.PARTICIPANT_LEFT"),
+        ENDPOINT_TEXT_MESSAGE_RECEIVED("com.grommunio.meet.ENDPOINT_TEXT_MESSAGE_RECEIVED"),
+        SCREEN_SHARE_TOGGLED("com.grommunio.meet.SCREEN_SHARE_TOGGLED"),
+        PARTICIPANTS_INFO_RETRIEVED("com.grommunio.meet.PARTICIPANTS_INFO_RETRIEVED"),
+        CHAT_MESSAGE_RECEIVED("com.grommunio.meet.CHAT_MESSAGE_RECEIVED"),
+        CHAT_TOGGLED("com.grommunio.meet.CHAT_TOGGLED"),
+        VIDEO_MUTED_CHANGED("com.grommunio.meet.VIDEO_MUTED_CHANGED"),
+        READY_TO_CLOSE("com.grommunio.meet.READY_TO_CLOSE");
 
         private static final String CONFERENCE_WILL_JOIN_NAME = "CONFERENCE_WILL_JOIN";
         private static final String CONFERENCE_JOINED_NAME = "CONFERENCE_JOINED";
