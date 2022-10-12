@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>grommunio.com.meet</string>
+	<string>com.grommunio.meet</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

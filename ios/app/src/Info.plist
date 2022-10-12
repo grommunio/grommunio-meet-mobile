@@ -79,7 +79,7 @@
 	<key>RTCAppGroupIdentifier</key>
 	<string>group.grommunio.com.appgroup</string>
 	<key>RTCScreenSharingExtension</key>
-	<string>grommunio.com.meet.broadcast</string>
+	<string>com.grommunio.meet.broadcast</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

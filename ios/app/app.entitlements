@@ -12,7 +12,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.grommunio.com.meet</string>
+		<string>group.com.grommunio.meet</string>
 	</array>
 </dict>
 </plist>
