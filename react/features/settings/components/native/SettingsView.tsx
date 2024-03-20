@@ -92,6 +92,9 @@ const SettingsView = ({ isInWelcomePage }: IProps) => {
                 <Divider style = { styles.fieldSeparator as ViewStyle } />
                 <AdvancedSection />
                 <Divider style = { styles.fieldSeparator as ViewStyle } />
+                <Text style = {{ ...styles.text, textAlign: "center", fontWeight: "900" }}>
+                    {`grommunio meet is powered by Jitsi Meet`}
+                </Text>
                 <LinksSection />
             </ScrollView>
         </JitsiScreen>
