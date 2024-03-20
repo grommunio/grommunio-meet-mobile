@@ -445,7 +445,7 @@
         "answer": "Cevapla",
         "audioCallTitle": "Gelen sesli arama",
         "decline": "Reddet",
-        "productLabel": "Grommunio Meet'den",
+        "productLabel": "grommunio meet'den",
         "videoCallTitle": "Gelen görüntülü arama"
     },
     "info": {
@@ -692,7 +692,7 @@
         "noiseSuppressionFailedTitle": "Gürültü bastırma başlatılamadı",
         "noiseSuppressionNoTrackDescription": "Lütfen önce mikrofonunuzun sesini açın.",
         "noiseSuppressionStereoDescription": "Stereo ses gürültü bastırma şu anda desteklenmemektedir.",
-        "oldElectronClientDescription1": "Güvenlik açıkları bilinen Grommunio Meet istemcisinin eski bir sürümünü kullanıyor görünüyorsunuz. Lütfen güncellediğinizden emin olun.",
+        "oldElectronClientDescription1": "Güvenlik açıkları bilinen grommunio meet istemcisinin eski bir sürümünü kullanıyor görünüyorsunuz. Lütfen güncellediğinizden emin olun.",
         "oldElectronClientDescription2": "son yapı",
         "oldElectronClientDescription3": " şimdi!",
         "participantWantsToJoin": "toplantıya katılmak istiyor",
@@ -1337,7 +1337,7 @@
         "go": "GİT",
         "goSmall": "GİT",
         "headerSubtitle": "Güvenli ve yüksek kaliteli toplantılar",
-        "headerTitle": "Grommunio Meet",
+        "headerTitle": "grommunio meet",
         "info": "Bilgi",
         "grommunioOnMobile": "Mobil'de Grommunio – uygulamalarımızı indirin ve her yerden bir toplantı başlatın",
         "join": "KATIL",

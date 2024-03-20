@@ -442,7 +442,7 @@
         "answer": "Odpovědět",
         "audioCallTitle": "Příchozí hovor",
         "decline": "OK",
-        "productLabel": "od Grommunio Meet",
+        "productLabel": "od grommunio meet",
         "videoCallTitle": "Příchozí videohovor"
     },
     "info": {
@@ -686,7 +686,7 @@
         "noiseSuppressionFailedTitle": "",
         "noiseSuppressionNoTrackDescription": "",
         "noiseSuppressionStereoDescription": "",
-        "oldElectronClientDescription1": "Zdá se, že používáte zastaralou verzi klienta Grommunio Meet, který má známé bezpečnostní zranitelnosti. Aktualizujte prosím na ",
+        "oldElectronClientDescription1": "Zdá se, že používáte zastaralou verzi klienta grommunio meet, který má známé bezpečnostní zranitelnosti. Aktualizujte prosím na ",
         "oldElectronClientDescription2": "nejnovější sestavení",
         "oldElectronClientDescription3": " ihned!",
         "participantWantsToJoin": "",
@@ -1309,7 +1309,7 @@
         "go": "ZAČÍT",
         "goSmall": "ZAČÍT",
         "headerSubtitle": "Bezpečné a kvalitní setkávání",
-        "headerTitle": "Grommunio Meet",
+        "headerTitle": "grommunio meet",
         "info": "Informace o vytáčení",
         "grommunioOnMobile": "Grommunio na mobilu – stáhněte si naše aplikace a spusťte hovor odkudkoliv",
         "join": "VYTVOŘIT / PŘIPOJIT",

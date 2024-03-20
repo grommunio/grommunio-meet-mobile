@@ -526,7 +526,7 @@
         "answer": "Antworten",
         "audioCallTitle": "Eingehender Anruf",
         "decline": "OK",
-        "productLabel": "von Grommunio Meet",
+        "productLabel": "von grommunio meet",
         "videoCallTitle": "Eingehender Videoanruf"
     },
     "info": {
@@ -1497,7 +1497,7 @@
         "go": "Los",
         "goSmall": "Los",
         "headerSubtitle": "Sichere und hochqualitative Meetings",
-        "headerTitle": "Grommunio Meet",
+        "headerTitle": "grommunio meet",
         "info": "Einwahlinformationen",
         "grommunioOnMobile": "Grommunio unterwegs – einfach unsere Apps herunterladen und Meetings von überall starten",
         "join": "ERSTELLEN / BEITRETEN",
@@ -1505,7 +1505,7 @@
             "calendar": "Kalender Logo",
             "desktopPreviewThumbnail": "Desktop-Vorschau Thumbnail",
             "googleLogo": "Google Logo",
-            "logoDeepLinking": "Grommunio Meet Logo",
+            "logoDeepLinking": "grommunio meet Logo",
             "microsoftLogo": "Microsoft Logo",
             "policyLogo": "Richtlinienlogo"
         },
