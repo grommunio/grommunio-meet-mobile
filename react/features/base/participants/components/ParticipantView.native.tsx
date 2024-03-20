@@ -94,7 +94,7 @@ interface IProps {
      * The test hint id which can be used to locate the {@code ParticipantView}
      * on the jitsi-meet-torture side. If not provided, the
      * {@code participantId} with the following format will be used:
-     * {@code `org.jitsi.meet.Participant#${participantId}`}.
+     * {@code `com.grommunio.meet.Participant#${participantId}`}.
      */
     testHintId?: string;
 
@@ -175,7 +175,7 @@ class ParticipantView extends Component<IProps> {
         const testHintId
             = this.props.testHintId
                 ? this.props.testHintId
-                : `org.jitsi.meet.Participant#${this.props.participantId}`;
+                : `com.grommunio.meet.Participant#${this.props.participantId}`;
 
         const renderSharedVideo = _isSharedVideoParticipant && !disableVideo;
 

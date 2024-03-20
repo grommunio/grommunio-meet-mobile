@@ -88,7 +88,7 @@ function _upgradeRoleFinished(
         progress = progressOrError;
     } else {
         // Make the specified error object resemble an Error instance (to the
-        // extent that jitsi-meet needs it).
+        // extent that grommunio-meet needs it).
         const {
             authenticationError,
             connectionError,

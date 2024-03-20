@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Pievienot sapulces saiti",
-        "confirmAddLink": "Vai vēlaties šim kalendāra notikumam pievienot Jitsi saiti?",
+        "confirmAddLink": "Vai vēlaties šim kalendāra notikumam pievienot Grommunio saiti?",
         "error": {
             "appConfiguration": "Nepareizi iestatīta kalendāra integrācija.",
             "generic": "Radās kļūda. Lūdzu, pārbaudiet kalendāra iestatījumus vai mēģiniet atsvaidzināt kalendāru.",
@@ -454,7 +454,7 @@
         "token": "tokens",
         "tokenAuthFailed": "Atvainojiet, jums nav atļauts pievienoties šim zvanam.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Nederīga `aud` vērtība. Tai vajadzētu būt `jitsi`.",
+            "audInvalid": "Nederīga `aud` vērtība. Tai vajadzētu būt `grommunio`.",
             "contextNotFound": "Saturā trūkst `context` objekts.",
             "expInvalid": "Nederīga `exp` vērtība.",
             "featureInvalid": "Nederīga funkcionalitāte: {{feature}}, visticamāk, vēl nav ieviesta.",
@@ -526,7 +526,7 @@
         "answer": "Atbildēt",
         "audioCallTitle": "Ienākošs audio zvans",
         "decline": "Noraidīt",
-        "productLabel": "no Jitsi Meet",
+        "productLabel": "no Grommunio Meet",
         "videoCallTitle": "Ienākošs video zvans"
     },
     "info": {
@@ -583,7 +583,7 @@
         "searchPlaceholder": "Dalībnieks vai tālruņa numurs",
         "send": "Nosūtīt"
     },
-    "jitsiHome": "{{logo}} Logotips, saites uz sākumlapu",
+    "grommunioHome": "{{logo}} Logotips, saites uz sākumlapu",
     "keyboardShortcuts": {
         "focusLocal": "Fokuss uz savu video",
         "focusRemote": "Fokuss uz cita dalībnieka video",
@@ -732,7 +732,7 @@
         "dataChannelClosed": "Video kvalitāte ir traucēta",
         "dataChannelClosedDescription": "Savienojuma kanāls ir atvienots, un tādējādi video kvalitāte ir ierobežota līdz zemākajam iestatījumam.",
         "disabledIframe": "Iegulšana ir paredzēta tikai demonstrācijas nolūkiem, tāpēc šis zvans tiks atvienots pēc {{timeout}} minūtēm.",
-        "disabledIframeSecondary": "{{domain}} iegulšana ir paredzēta tikai demonstrācijas nolūkiem, tāpēc šis zvans tiks atvienots pēc {{timeout}} minūtēm. Lūdzu, izmantojiet <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi kā Pakalpojums</a> produkcijas iegulšanai!",
+        "disabledIframeSecondary": "{{domain}} iegulšana ir paredzēta tikai demonstrācijas nolūkiem, tāpēc šis zvans tiks atvienots pēc {{timeout}} minūtēm. Lūdzu, izmantojiet <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Grommunio kā Pakalpojums</a> produkcijas iegulšanai!",
         "disconnected": "savienojums pārtraukts",
         "displayNotifications": "Rādīt paziņojumus",
         "dontRemindMe": "Neatgādināt man",
@@ -780,7 +780,7 @@
         "noiseSuppressionDesktopAudioDescription": "Darbvirsmas audio koplietošanas laikā nevar iespējot trokšņu slāpēšanu. Lūdzu, atspējojiet to un mēģiniet vēlreiz.",
         "noiseSuppressionFailedTitle": "Neizdevās sākt trokšņu slāpēšanu",
         "noiseSuppressionStereoDescription": "Stereo audio trokšņu slāpēšana pašlaik netiek atbalstīta.",
-        "oldElectronClientDescription1": "Izskatās, ka jūs izmantojat vecu Jitsi Meet klienta versiju, kurai ir zināmas drošības ievainojamības. Lūdzu, atjauniniet uz ",
+        "oldElectronClientDescription1": "Izskatās, ka jūs izmantojat vecu Grommunio Meet klienta versiju, kurai ir zināmas drošības ievainojamības. Lūdzu, atjauniniet uz ",
         "oldElectronClientDescription2": "jaunākā versija",
         "oldElectronClientDescription3": "tagad!",
         "participantWantsToJoin": "Vēlas pievienoties sapulcei",
@@ -1491,15 +1491,15 @@
         "go": "Aiziet",
         "goSmall": "Aiziet",
         "headerSubtitle": "Drošas un kvalitatīvas sapulces",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "Grommunio Meet",
         "info": "Iezvanes informācija",
-        "jitsiOnMobile": "Jitsi mobilajā ierīcē — lejupielādējiet mūsu lietotnes un sāciet sapulci no jebkuras vietas",
+        "grommunioOnMobile": "Grommunio mobilajā ierīcē — lejupielādējiet mūsu lietotnes un sāciet sapulci no jebkuras vietas",
         "join": "IZVEIDOT / PIEVIENOTIES",
         "logo": {
             "calendar": "Kalendāra logotips",
             "desktopPreviewThumbnail": "Darbvirsmas priekšskatījuma sīktēls",
             "googleLogo": "Google logotips",
-            "logoDeepLinking": "Jitsi meet logotips",
+            "logoDeepLinking": "Grommunio meet logotips",
             "microsoftLogo": "Microsoft logotips",
             "policyLogo": "Politikas logotips"
         },

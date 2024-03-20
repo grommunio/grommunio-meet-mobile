@@ -73,7 +73,7 @@ export default class AbstractHandler {
         } = event;
 
         // All events have action, actionSubject, and source fields. All
-        // three fields are required, and often jitsi-meet and
+        // three fields are required, and often grommunio-meet and
         // lib-jitsi-meet use the same value when separate values are not
         // necessary (i.e. event.action == event.actionSubject).
         // Here we concatenate these three fields, but avoid adding the same

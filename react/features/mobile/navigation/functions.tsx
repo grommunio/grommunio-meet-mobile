@@ -42,7 +42,7 @@ export function screenHeaderCloseButton(goBack: (e?: GestureResponderEvent | Rea
 
 /**
  * Determines whether the {@code Prejoin page} is enabled by the app itself
- * (e.g. Programmatically via the Jitsi Meet SDK for Android and iOS).
+ * (e.g. Programmatically via the grommunio meet SDK for Android and iOS).
  *
  * @param {Function|Object} stateful - The redux state or {@link getState}
  * function.

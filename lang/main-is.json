@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Bæta við fundartengli",
-        "confirmAddLink": "Viltu bæta við Jitsi-tengli í þennan atburð?",
+        "confirmAddLink": "Viltu bæta við Grommunio-tengli í þennan atburð?",
         "error": {
             "appConfiguration": "Samþætting dagatals er ekki rétt uppsett.",
             "generic": "Villa kom upp. Athugaðu stillingar dagatalsins eða prófaðu að endurlesa það.",
@@ -452,7 +452,7 @@
         "token": "teikn",
         "tokenAuthFailed": "Því miður, þú hefur ekki heimild til að taka þátt í þessu samtali.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Ógilt `aud` gildi. Það ætti að vera `jitsi`.",
+            "audInvalid": "Ógilt `aud` gildi. Það ætti að vera `grommunio`.",
             "contextNotFound": "Hlutinn `context` vantar úr sendingunni.",
             "expInvalid": "Ógilt `exp` gildi.",
             "featureInvalid": "Ógildur eiginleiki: {{feature}}, líklegast ekki útfært ennþá.",
@@ -524,7 +524,7 @@
         "answer": "Svara",
         "audioCallTitle": "Innhringing",
         "decline": "Hunsa",
-        "productLabel": "frá Jitsi Meet",
+        "productLabel": "frá Grommunio Meet",
         "videoCallTitle": "Innhringing myndsamtals"
     },
     "info": {
@@ -581,7 +581,7 @@
         "searchPlaceholder": "Þátttakandi eða símanúmer",
         "send": "Senda"
     },
-    "jitsiHome": "{{logo}} táknmerki, tengist á heimasíðu",
+    "grommunioHome": "{{logo}} táknmerki, tengist á heimasíðu",
     "keyboardShortcuts": {
         "focusLocal": "Gera myndmerkið þitt virkt",
         "focusRemote": "Gera myndmerkið einhvers annars virkt",
@@ -730,7 +730,7 @@
         "dataChannelClosed": "Gæðum myndmerkis er ábótavant",
         "dataChannelClosedDescription": "Brúarrásin hefur verið aftengd og eru því gæði myndmerkis takmörkuð við lægstu stillinguna.",
         "disabledIframe": "Ívafning (embedding) er aðeins ætluð sem sýnidæmi, þannig að þetta mun aftengjast eftir {{timeout}} mínútur.",
-        "disabledIframeSecondary": "Ívafning (embedding) {{domain}} er aðeins ætluð sem sýnidæmi, þannig að þetta mun aftengjast eftir {{timeout}} mínútur. Notaðu <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi sem þjónustu</a> fyrir ívafningu í vinnuumhverfi!",
+        "disabledIframeSecondary": "Ívafning (embedding) {{domain}} er aðeins ætluð sem sýnidæmi, þannig að þetta mun aftengjast eftir {{timeout}} mínútur. Notaðu <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Grommunio sem þjónustu</a> fyrir ívafningu í vinnuumhverfi!",
         "disconnected": "aftengt",
         "displayNotifications": "Birta tilkynningar frá",
         "dontRemindMe": "Ekki minna mig á",
@@ -778,7 +778,7 @@
         "noiseSuppressionDesktopAudioDescription": "Ekki var hægt að gera truflanasíun virka á meðan deiling fór fram á hljóði, gerðu deilinguna óvirka og reyndu síðan aftur.",
         "noiseSuppressionFailedTitle": "Mistókst að ræsa truflanasíun",
         "noiseSuppressionStereoDescription": "Truflanasíun í víðómi er ekki studd ennþá.",
-        "oldElectronClientDescription1": "Þú virðist vera að nota gamla útgáfu af Jitsi Meet forritinu sem vitað er að sé með öryggisveilur. Gakktu úr skugga um að þú uppfærir í ",
+        "oldElectronClientDescription1": "Þú virðist vera að nota gamla útgáfu af Grommunio Meet forritinu sem vitað er að sé með öryggisveilur. Gakktu úr skugga um að þú uppfærir í ",
         "oldElectronClientDescription2": "nýjustu byggingarútgáfuna okkar",
         "oldElectronClientDescription3": " núna!",
         "participantWantsToJoin": "Vill taka þátt í fundinum",
@@ -1493,15 +1493,15 @@
         "go": "Af stað",
         "goSmall": "Af stað",
         "headerSubtitle": "Öruggir hágæða myndfundir",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "Grommunio Meet",
         "info": "Innhringingarupplýsingar",
-        "jitsiOnMobile": "Jitsi á snjallsímum – sæktu forritin okkar og byrjaðu fundi hvar sem er",
+        "grommunioOnMobile": "Grommunio á snjallsímum – sæktu forritin okkar og byrjaðu fundi hvar sem er",
         "join": "BÚA TIL / TAKA ÞÁTT",
         "logo": {
             "calendar": "Táknmerki dagatals",
             "desktopPreviewThumbnail": "Smámynd forskoðunar á skjáborði",
             "googleLogo": "Táknmerki Google",
-            "logoDeepLinking": "Táknmerki Jitsi Meet",
+            "logoDeepLinking": "Táknmerki Grommunio Meet",
             "microsoftLogo": "Táknmerki Microsoft",
             "policyLogo": "Táknmerki stefnu"
         },

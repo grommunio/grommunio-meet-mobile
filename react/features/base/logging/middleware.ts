@@ -273,7 +273,7 @@ function _setLoggingConfig({ dispatch, getState }: IStore,
  */
 function _setLogLevels(logger: any, config: any) {
     // XXX The loggers of the library lib-jitsi-meet and the application
-    // jitsi-meet are separate, so the log levels have to be set in both.
+    // grommunio-meet are separate, so the log levels have to be set in both.
 
     // First, set the default log level.
     logger.setLogLevel(config.defaultLogLevel);

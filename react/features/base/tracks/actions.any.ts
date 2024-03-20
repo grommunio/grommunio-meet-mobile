@@ -767,7 +767,7 @@ function _shouldMirror(track: any): boolean {
             // getCameraFacingMode happens to be named CAMERA_FACING_MODE as
             // well, it's defined by lib-jitsi-meet. Note though that the type
             // of the value on the right side of the equality check is defined
-            // by jitsi-meet. The type definitions are surely compatible today
+            // by grommunio-meet. The type definitions are surely compatible today
             // but that may not be the case tomorrow.
             && track?.getCameraFacingMode() === CAMERA_FACING_MODE.USER);
 }

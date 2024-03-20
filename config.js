@@ -94,7 +94,7 @@ var config = {
         // participants in the conference.
         // p2pTestMode: false,
 
-        // Enables the test specific features consumed by jitsi-meet-torture
+        // Enables the test specific features consumed by grommunio-meet-torture
         // testMode: false,
 
         // Disables the auto-play behavior of *all* newly created video element.
@@ -156,7 +156,7 @@ var config = {
 
     // audioLevelsInterval: 200,
 
-    // Enabling this will run the lib-jitsi-meet no audio detection module which
+    // Enabling this will run the lib-grommunio-meet no audio detection module which
     // will notify the user if the current selected microphone has no audio
     // input and will suggest another valid device if one is present.
     enableNoAudioDetection: true,
@@ -170,7 +170,7 @@ var config = {
     // used to display more statistics about the connection (IP, Port, protocol, etc).
     // disableShowMoreStats: true,
 
-    // Enabling this will run the lib-jitsi-meet noise detection module which will
+    // Enabling this will run the lib-grommunio-meet noise detection module which will
     // notify the user if there is noise, other than voice, coming from the current
     // selected microphone. The purpose it to let the user know that the input could
     // be potentially unpleasant for other meeting participants.
@@ -266,7 +266,7 @@ var config = {
     // maxFullResolutionParticipants: 2,
 
     // w3c spec-compliant video constraints to use for video capture. Currently
-    // used by browsers that return true from lib-jitsi-meet's
+    // used by browsers that return true from lib-grommunio-meet's
     // util#browser#usesNewGumFlow. The constraints are independent from
     // this config's resolution value. Defaults to requesting an ideal
     // resolution of 720p.
@@ -583,7 +583,7 @@ var config = {
     // Disables or enables RTX (RFC 4588) (defaults to false).
     // disableRtx: false,
 
-    // Moves all Jitsi Meet 'beforeunload' logic (cleanup, leaving, disconnecting, etc) to the 'unload' event.
+    // Moves all grommunio meet 'beforeunload' logic (cleanup, leaving, disconnecting, etc) to the 'unload' event.
     // disableBeforeUnloadHandlers: true,
 
     // Disables or enables TCC support in this client (default: enabled).
@@ -604,7 +604,7 @@ var config = {
     // the bridge going down.
     // enableForcedReload: true,
 
-    // Use TURN/UDP servers for the jitsi-videobridge connection (by default
+    // Use TURN/UDP servers for the grommunio-videobridge connection (by default
     // we filter out TURN/UDP because it is usually not needed since the
     // bridge itself is reachable via UDP)
     // useTurnUdp: false
@@ -949,7 +949,7 @@ var config = {
 
     // Whether to enable stats collection or not in the TraceablePeerConnection.
     // This can be useful for debugging purposes (post-processing/analysis of
-    // the webrtc stats) as it is done in the jitsi-meet-torture bandwidth
+    // the webrtc stats) as it is done in the grommunio-meet-torture bandwidth
     // estimation tests.
     // gatherStats: false,
 
@@ -1085,7 +1085,7 @@ var config = {
         // all SDPs with an empty string instead.
         // rtcstatsSendSdp: false,
 
-        // Array of script URLs to load as lib-jitsi-meet "analytics handlers".
+        // Array of script URLs to load as lib-grommunio-meet "analytics handlers".
         // scriptURLs: [
         //      "libs/analytics-ga.min.js", // google-analytics
         //      "https://example.com/my-custom-analytics.js",
@@ -1100,7 +1100,7 @@ var config = {
     // Logs that should go be passed through the 'log' event if a handler is defined for it
     // apiLogLevels: ['warn', 'log', 'error', 'info', 'debug'],
 
-    // Information about the jitsi-meet instance we are connecting to, including
+    // Information about the grommunio-meet instance we are connecting to, including
     // the user region as seen by the server.
     // deploymentInfo: {
     //     shard: "shard1",
@@ -1211,7 +1211,7 @@ var config = {
     //
     //     // The desktop deeplinking config, disabled by default.
     //     desktop: {
-    //         appName: 'Jitsi Meet',
+    //         appName: 'grommunio meet',
     //         appScheme: 'jitsi-meet,
     //         download: {
     //             linux:
@@ -1230,13 +1230,13 @@ var config = {
 
     //     // The ios deeplinking config.
     //     ios: {
-    //         appName: 'Jitsi Meet',
+    //         appName: 'grommunio meet',
     //         // Specify mobile app scheme for opening the app from the mobile browser.
-    //         appScheme: 'org.jitsi.meet',
+    //         appScheme: 'com.grommunio.meet',
     //         // Custom URL for downloading ios mobile app.
     //         downloadLink: 'https://itunes.apple.com/us/app/jitsi-meet/id1165103905',
     //         dynamicLink: {
-    //             apn: 'org.jitsi.meet',
+    //             apn: 'com.grommunio.meet',
     //             appCode: 'w2atb',
     //             customDomain: undefined,
     //             ibi: 'com.atlassian.JitsiMeet.ios',
@@ -1246,16 +1246,16 @@ var config = {
 
     //     // The android deeplinking config.
     //     android: {
-    //         appName: 'Jitsi Meet',
+    //         appName: 'grommunio meet',
     //         // Specify mobile app scheme for opening the app from the mobile browser.
-    //         appScheme: 'org.jitsi.meet',
+    //         appScheme: 'com.grommunio.meet',
     //         // Custom URL for downloading android mobile app.
-    //         downloadLink: 'https://play.google.com/store/apps/details?id=org.jitsi.meet',
+    //         downloadLink: 'https://play.google.com/store/apps/details?id=com.grommunio.meet',
     //         // Android app package name.
-    //         appPackage: 'org.jitsi.meet',
-    //         fDroidUrl: 'https://f-droid.org/en/packages/org.jitsi.meet/',
+    //         appPackage: 'com.grommunio.meet',
+    //         fDroidUrl: 'https://f-droid.org/en/packages/com.grommunio.meet/',
     //         dynamicLink: {
-    //             apn: 'org.jitsi.meet',
+    //             apn: 'com.grommunio.meet',
     //             appCode: 'w2atb',
     //             customDomain: undefined,
     //             ibi: 'com.atlassian.JitsiMeet.ios',
@@ -1470,8 +1470,8 @@ var config = {
     // Sets the conference local subject
     // localSubject: 'Conference Local Subject',
 
-    // This property is related to the use case when jitsi-meet is used via the IFrame API. When the property is true
-    // jitsi-meet will use the local storage of the host page instead of its own. This option is useful if the browser
+    // This property is related to the use case when grommunio-meet is used via the IFrame API. When the property is true
+    // grommunio-meet will use the local storage of the host page instead of its own. This option is useful if the browser
     // is not persisting the local storage inside the iframe.
     // useHostPageLocalStorage: true,
 
@@ -1513,7 +1513,7 @@ var config = {
     // and will automatically redirect to the token service to get the token for the meeting.
     // tokenAuthUrlAutoRedirect: false
 
-    // List of undocumented settings used in jitsi-meet
+    // List of undocumented settings used in grommunio-meet
     /**
      _immediateReloadThreshold
      debug
@@ -1536,12 +1536,12 @@ var config = {
 
     /**
      * This property can be used to alter the generated meeting invite links (in combination with a branding domain
-     * which is retrieved internally by jitsi meet) (e.g. https://meet.jit.si/someMeeting
+     * which is retrieved internally by grommunio meet) (e.g. https://meet.jit.si/someMeeting
      * can become https://brandedDomain/roomAlias)
      */
     // brandingRoomAlias: null,
 
-    // List of undocumented settings used in lib-jitsi-meet
+    // List of undocumented settings used in lib-grommunio-meet
     /**
      _peerConnStatusOutOfLastNTimeout
      _peerConnStatusRtcMuteTimeout
@@ -1717,7 +1717,7 @@ var config = {
 
     // Logging
     // logging: {
-    //      // Default log level for the app and lib-jitsi-meet.
+    //      // Default log level for the app and lib-grommunio-meet.
     //      defaultLogLevel: 'trace',
     //      // Option to disable LogCollector.
     //      //disableLogCollector: true,

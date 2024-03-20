@@ -70,7 +70,7 @@ public class PiPViewCoordinator {
 
         // Otherwise the enter/exit pip animation looks odd
         // when pip window is bottom left, top left or top right,
-        // because the jitsi view content does not animate, but jumps to the new size immediately.
+        // because the grommunio view content does not animate, but jumps to the new size immediately.
         view.clipsToBounds = true
     }
 

@@ -23,7 +23,7 @@ android {
 
 
     defaultConfig {
-        applicationId 'org.jitsi.meet'
+        applicationId 'com.grommunio.meet'
         versionCode vcode
         versionName project.appVersion
 
@@ -74,7 +74,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'org.jitsi.meet'
+    namespace 'com.grommunio.meet'
 }
 
 dependencies {

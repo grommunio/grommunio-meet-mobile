@@ -24,7 +24,7 @@ const emptyObject = {};
 
 /**
  * Local storage key name for flag telling if user checked 'Don't show again' checkbox on the banner
- * If the user checks this before closing the banner, next time he will access a jitsi domain
+ * If the user checks this before closing the banner, next time he will access a grommunio domain
  * the banner will not be shown regardless of extensions being installed or not.
  */
 const DONT_SHOW_AGAIN_CHECKED = 'hide_chrome_extension_banner';

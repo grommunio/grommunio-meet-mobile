@@ -39,21 +39,21 @@ apt install token-generator
 mkdir -p /etc/jitsi/meet/jaas
 
 VPAAS_COOKIE=$(echo -n ${JAAS_KEY_ID}| cut -d/ -f1)
-cp /usr/share/jitsi-meet-web-config/nginx-jaas.conf /etc/jitsi/meet/jaas
+cp /usr/share/grommunio-meet-web-config/nginx-jaas.conf /etc/jitsi/meet/jaas
 sed -i "s/jaas_magic_cookie/${VPAAS_COOKIE}/g" /etc/jitsi/meet/jaas/nginx-jaas.conf
 
-cp /usr/share/jitsi-meet-web-config/8x8.vc-config.js /etc/jitsi/meet/jaas/
+cp /usr/share/grommunio-meet-web-config/8x8.vc-config.js /etc/jitsi/meet/jaas/
 echo "set \$config_js_location /etc/jitsi/meet/jaas/8x8.vc-config.js;" >> /etc/jitsi/meet/jaas/jaas-vars
 echo "set \$custom_index index-jaas.html;" >> /etc/jitsi/meet/jaas/jaas-vars
 
-ln -s /usr/share/jitsi-meet-web-config/index-jaas.html /usr/share/jitsi-meet/index-jaas.html
+ln -s /usr/share/grommunio-meet-web-config/index-jaas.html /usr/share/grommunio-meet/index-jaas.html
 
 # let's create the daily key now
-/usr/share/jitsi-meet/scripts/update-asap-daily.sh
+/usr/share/grommunio-meet/scripts/update-asap-daily.sh
 
 # let's add to cron daily the update of the asap key
 if [ -d /etc/cron.daily ]; then
-  ln -s /usr/share/jitsi-meet/scripts/update-asap-daily.sh /etc/cron.daily/update-jaas-asap.sh
+  ln -s /usr/share/grommunio-meet/scripts/update-asap-daily.sh /etc/cron.daily/update-jaas-asap.sh
 else
-  echo "No /etc/cron.daily. Please add to your cron jobs to execute as root daily the script: /usr/share/jitsi-meet/scripts/update-asap-daily.sh"
+  echo "No /etc/cron.daily. Please add to your cron jobs to execute as root daily the script: /usr/share/grommunio-meet/scripts/update-asap-daily.sh"
 fi

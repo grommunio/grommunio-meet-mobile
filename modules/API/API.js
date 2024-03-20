@@ -621,7 +621,7 @@ function initCommands() {
          * @param { string } arg.rtmpStreamKey - The RTMP stream key.
          * @param { string } arg.rtmpBroadcastID - The RTMP broadcast ID.
          * @param { boolean } arg.shouldShare - Whether the recording should be shared with the participants or not.
-         * Only applies to certain jitsi meet deploys.
+         * Only applies to certain grommunio meet deploys.
          * @param { string } arg.youtubeStreamKey - The youtube stream key.
          * @param { string } arg.youtubeBroadcastID - The youtube broadcast ID.
          * @param { Object } arg.extraMetadata - Any extra metadata params for file recording.
@@ -1067,15 +1067,15 @@ function sanitizeMouseEvent(event) {
 
 /**
  * Implements API class that communicates with external API class and provides
- * interface to access Jitsi Meet features by external applications that embed
- * Jitsi Meet.
+ * interface to access grommunio meet features by external applications that embed
+ * grommunio meet.
  */
 class API {
     _enabled;
 
     /**
      * Initializes the API. Setups message event listeners that will receive
-     * information from external applications that embed Jitsi Meet. It also
+     * information from external applications that embed grommunio meet. It also
      * sends a message to the external application that API is initialized.
      *
      * @param {Object} options - Optional parameters.
@@ -1118,7 +1118,7 @@ class API {
     }
 
     /**
-     * Notifies the external application (spot) that the local jitsi-participant
+     * Notifies the external application (spot) that the local grommunio-participant
      * has a status update.
      *
      * @param {Object} event - The message to pass onto spot.

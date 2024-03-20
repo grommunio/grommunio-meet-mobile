@@ -226,7 +226,7 @@ class LargeVideo extends PureComponent<IProps, IState> {
                 disableVideo = { _disableVideo }
                 onPress = { onClick }
                 participantId = { _participantId }
-                testHintId = 'org.jitsi.meet.LargeVideo'
+                testHintId = 'com.grommunio.meet.LargeVideo'
                 useConnectivityInfoLabel = { useConnectivityInfoLabel }
                 zOrder = { 0 }
                 zoomEnabled = { true } />

@@ -1,4 +1,4 @@
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import androidx.core.app.ActivityCompat;
 

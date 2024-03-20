@@ -31,7 +31,7 @@ export function updateConfig(config: IConfig) {
 }
 
 /**
- * Signals that the configuration (commonly known in Jitsi Meet as config.js)
+ * Signals that the configuration (commonly known in grommunio meet as config.js)
  * for a specific locationURL will be loaded now.
  *
  * @param {URL} locationURL - The URL of the location which necessitated the
@@ -52,7 +52,7 @@ export function configWillLoad(locationURL: URL, room: string) {
 }
 
 /**
- * Signals that a configuration (commonly known in Jitsi Meet as config.js)
+ * Signals that a configuration (commonly known in grommunio meet as config.js)
  * could not be loaded due to a specific error.
  *
  * @param {Error} error - The {@code Error} which prevented the successful
@@ -92,7 +92,7 @@ export function overwriteConfig(config: Object) {
 /**
  * Sets the configuration represented by the feature base/config. The
  * configuration is defined and consumed by the library lib-jitsi-meet but some
- * of its properties are consumed by the application jitsi-meet as well.
+ * of its properties are consumed by the application grommunio-meet as well.
  *
  * @param {Object} config - The configuration to be represented by the feature
  * base/config.
@@ -147,11 +147,11 @@ export function setConfig(config: IConfig = {}) {
 }
 
 /**
- * Stores a specific Jitsi Meet config.js object into {@code localStorage}.
+ * Stores a specific grommunio meet config.js object into {@code localStorage}.
  *
  * @param {string} baseURL - The base URL from which the config.js was
  * downloaded.
- * @param {Object} config - The Jitsi Meet config.js to store.
+ * @param {Object} config - The grommunio meet config.js to store.
  * @returns {Function}
  */
 export function storeConfig(baseURL: string, config: Object) {

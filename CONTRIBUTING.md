@@ -3,7 +3,7 @@ We would love to have your help. Before you start working however, please read
 and follow this short guide.
 
 # Reporting Issues
-Provide as much information as possible. Mention the version of Jitsi Meet,
+Provide as much information as possible. Mention the version of grommunio meet,
 Jicofo and JVB you are using, and explain (as detailed as you can) how the
 problem can be reproduced.
 
@@ -108,7 +108,7 @@ in the agreement, unfortunately, we cannot accept your contribution.
   projects. For example:
 
   * The instance of lib-jitsi-meet's `JitsiConnection` type should be named
-    `connection` or `jitsiConnection` in jitsi-meet, not `client`.
+    `connection` or `jitsiConnection` in grommunio-meet, not `client`.
 
   * The class `ReducerRegistry` should be defined in ReducerRegistry.js and its
     imports in other files should use the same name. Don't define the class

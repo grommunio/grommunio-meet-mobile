@@ -221,7 +221,7 @@ class AudioTrack extends Component<IProps> {
 
     /**
      * Removes the association to the component's audio element from the passed
-     * in redux representation of jitsi audio track.
+     * in redux representation of grommunio audio track.
      *
      * @param {Object} track -  The redux representation of the {@code JitsiLocalTrack}.
      * @private

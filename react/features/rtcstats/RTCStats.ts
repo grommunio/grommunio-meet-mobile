@@ -17,7 +17,7 @@ import {
 } from './types';
 
 /**
- * Handle lib-jitsi-meet rtcstats events and send jitsi-meet specific statistics.
+ * Handle lib-jitsi-meet rtcstats events and send grommunio-meet specific statistics.
  */
 class RTCStats {
     private _connStateEvents: Array<any> = [];

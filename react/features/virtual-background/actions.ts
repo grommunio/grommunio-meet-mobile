@@ -9,7 +9,7 @@ import { IVirtualBackground } from './reducer';
  * Signals the local participant activate the virtual background video or not.
  *
  * @param {Object} options - Represents the virtual background set options.
- * @param {Object} jitsiTrack - Represents the jitsi track that will have backgraund effect applied.
+ * @param {Object} jitsiTrack - Represents the grommunio track that will have backgraund effect applied.
  * @returns {Promise}
  */
 export function toggleBackgroundEffect(options: IVirtualBackground, jitsiTrack: any) {

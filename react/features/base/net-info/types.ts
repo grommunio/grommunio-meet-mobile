@@ -1,7 +1,7 @@
 import { NetInfoCellularGeneration, NetInfoStateType } from '@react-native-community/netinfo';
 
 /**
- * Describes the structure which is used by jitsi-meet to store information about the current network type and
+ * Describes the structure which is used by grommunio-meet to store information about the current network type and
  * conditions.
  */
 export type NetworkInfo = {

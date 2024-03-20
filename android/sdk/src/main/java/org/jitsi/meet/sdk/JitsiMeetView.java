@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,7 +27,7 @@ import androidx.annotation.Nullable;
 
 import com.facebook.react.ReactRootView;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 
 
 public class JitsiMeetView extends FrameLayout {

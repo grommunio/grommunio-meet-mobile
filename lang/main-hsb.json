@@ -61,7 +61,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "link za konferencu přidać",
-        "confirmAddLink": "Chceće Jitsi-link k tutomu terminej přidać?",
+        "confirmAddLink": "Chceće Grommunio-link k tutomu terminej přidać?",
         "error": {
             "appConfiguration": "Integracija protyki njeje prawje konfigurěrowana.",
             "generic": "Zmylk. Pruwujće nastajenje protyki abo spytajće protyku aktualizować.",
@@ -440,7 +440,7 @@
         "answer": "wotmołwić",
         "audioCallTitle": "telefonat",
         "decline": "ok",
-        "productLabel": "wot Jitsi Meet",
+        "productLabel": "wot Grommunio Meet",
         "videoCallTitle": "widejo - telefonat"
     },
     "info": {
@@ -494,7 +494,7 @@
         "searchPlaceholder": "wobdźělnik abo telefoniske čisło",
         "send": "pósłać"
     },
-    "jitsiHome": "{{logo}} logo, pokaza na homepage",
+    "grommunioHome": "{{logo}} logo, pokaza na homepage",
     "keyboardShortcuts": {
         "focusLocal": "lokalny widejo fokusěrować",
         "focusRemote": "na widejo druheho wobdźělnika fokusěrować",
@@ -676,7 +676,7 @@
         "newDeviceAction": "wužiwać",
         "newDeviceAudioTitle": "nowy awdijowy nastroj spóznaty",
         "newDeviceCameraTitle": "nowa kamera spóznata",
-        "oldElectronClientDescription1": "Wužiwaće staru wersiju Jitsi-Meet-klienta. Tuta ma znate słabosće. Prošu aktualizujće na našu.",
+        "oldElectronClientDescription1": "Wužiwaće staru wersiju Grommunio-Meet-klienta. Tuta ma znate słabosće. Prošu aktualizujće na našu.",
         "oldElectronClientDescription2": "aktualnu wersiju",
         "oldElectronClientDescription3": "!",
         "participantWantsToJoin": "chce so na konferency wobdźělić",
@@ -1292,15 +1292,15 @@
         "go": "startuj",
         "goSmall": "startuj",
         "headerSubtitle": "Wěste konferency we wysokej kwaliće",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "Grommunio Meet",
         "info": "informacije za zawolenje",
-        "jitsiOnMobile": "Jitsi po puću - cyle jednorje našu app downloadować a konferency wšudźe po puću startować",
+        "grommunioOnMobile": "Grommunio po puću - cyle jednorje našu app downloadować a konferency wšudźe po puću startować",
         "join": "KREĚROWAĆ / PŘISTUPIĆ",
         "logo": {
             "calendar": "protyka",
             "desktopPreviewThumbnail": "předpokazka za desktop thumbnail",
             "googleLogo": "Google logo",
-            "logoDeepLinking": "Jitsi Meet logo",
+            "logoDeepLinking": "Grommunio Meet logo",
             "microsoftLogo": "Microsoft logo",
             "policyLogo": "logo za směrnicy"
         },

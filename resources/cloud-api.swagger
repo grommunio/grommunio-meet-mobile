@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: "Documents the REST calls used by Jitsi Meet to integrate with other services"
+  description: "Documents the REST calls used by grommunio meet to integrate with other services"
   version: "1.0.0"
   title: "Swagger Video"
   termsOfService: "https://jitsi.org/CloudAPITOS/"
@@ -77,7 +77,7 @@ paths:
       tags:
       - "phoneNumberList"
       summary: "Returns a list phone numbers by country"
-      description: "Used to populate the Share The Link section of jitsi-meet"
+      description: "Used to populate the Share The Link section of grommunio-meet"
       operationId: "phoneNumberList"
       produces:
       - "application/json"

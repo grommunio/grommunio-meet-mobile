@@ -15,7 +15,7 @@ fi
 COTURN_CERT_DIR="/etc/coturn/certs"
 TURN_CONFIG="/etc/turnserver.conf"
 
-# Execute only if turnconfig exist and is one managed by jitsi-meet
+# Execute only if turnconfig exist and is one managed by grommunio-meet
 if [ -f $TURN_CONFIG ] && grep -q "jitsi-meet coturn config" "$TURN_CONFIG" ; then
     # create a directory to store certs if it does not exists
     if [ ! -d "$COTURN_CERT_DIR" ]; then

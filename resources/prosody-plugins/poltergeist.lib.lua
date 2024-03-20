@@ -151,7 +151,7 @@ end
 --------------------------------------------------------------------------------
 -- State for toggling the tagging of presence stanzas with ignored tag.
 --
--- A poltergeist with it's full room/nick set to ignore will have a jitsi ignore
+-- A poltergeist with it's full room/nick set to ignore will have a grommunio ignore
 -- tag applied to all presence stanza's broadcasted. The following functions
 -- assist in managing this state.
 --------------------------------------------------------------------------------

@@ -1026,7 +1026,7 @@ export default {
      * Retrieve list of conference participants (without local user).
      * @returns {JitsiParticipant[]}
      *
-     * NOTE: Used by jitsi-meet-torture!
+     * NOTE: Used by grommunio-meet-torture!
      */
     listMembers() {
         return room.getParticipants();
@@ -1173,7 +1173,7 @@ export default {
      * desire to keep room private to this instance and (2) the need of other
      * modules to send and receive commands to and from participants.
      * Eventually, this instance remains in control with respect to the
-     * decision whether the Command(s) API of room (i.e. lib-jitsi-meet's
+     * decision whether the Command(s) API of room (i.e. lib-grommunio-meet's
      * JitsiConference) is to be used in the implementation of the Command(s)
      * API of this instance.
      */
@@ -1580,7 +1580,7 @@ export default {
     },
 
     /**
-     * Handles {@link JitsiTrackError} returned by the lib-jitsi-meet when
+     * Handles {@link JitsiTrackError} returned by the lib-grommunio-meet when
      * trying to create screensharing track. It will either do nothing if
      * the dialog was canceled on user's request or display an error if
      * screensharing couldn't be started.

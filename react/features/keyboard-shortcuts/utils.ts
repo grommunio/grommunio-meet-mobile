@@ -48,7 +48,7 @@ export const getKeyboardKey = (e: KeyboardEvent): string => {
     // the key pressed. This may not be true in all cases, such as with Edge
     // and "?", when the browser cannot properly map a key press event to a
     // keyboard key. To be safe, when a key is "Unidentified" it must be
-    // further analyzed by jitsi to a key using e.which.
+    // further analyzed by grommunio to a key using e.which.
     if (typeof key === 'string' && key !== 'Unidentified') {
         if (ctrlKey) {
             return `-${key}`;

@@ -380,7 +380,7 @@ export function disconnect(isRedirect?: boolean) {
                     // JitsiConference leave. Which may be because
                     // JitsiConference thinks it has already left.
                     // Regardless of the failure reason, continue in
-                    // jitsi-meet as if the leave has succeeded.
+                    // grommunio-meet as if the leave has succeeded.
                     dispatch(conferenceLeft(conference_));
                 });
         } else {

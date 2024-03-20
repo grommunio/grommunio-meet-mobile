@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for jitsi-meet-turnserver
+# postrm script for grommunio-meet-turnserver
 #
 # see: dh_installdeb(1)
 
