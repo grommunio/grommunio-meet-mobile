@@ -6,11 +6,11 @@ require Pod::Executable.execute_command('node', ['-p',
   )', __dir__]).strip
 
 platform :ios, '13.4'
-workspace 'jitsi-meet'
+workspace 'grommunio-meet'
 
 install! 'cocoapods', :deterministic_uuids => false
 
-target 'JitsiMeet' do
+target 'grommunioMeet' do
   project 'app/app.xcodeproj'
 
   pod 'Firebase/Analytics', '~> 8.0'
