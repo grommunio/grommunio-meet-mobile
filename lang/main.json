@@ -528,7 +528,7 @@
         "answer": "Answer",
         "audioCallTitle": "Incoming call",
         "decline": "Dismiss",
-        "productLabel": "from Grommunio Meet",
+        "productLabel": "from grommunio meet",
         "videoCallTitle": "Incoming video call"
     },
     "info": {
@@ -784,7 +784,7 @@
         "noiseSuppressionDesktopAudioDescription": "Noise suppression can't be enabled while sharing desktop audio, please disable it and try again.",
         "noiseSuppressionFailedTitle": "Failed to start noise suppression",
         "noiseSuppressionStereoDescription": "Stereo audio noise suppression is not currently supported.",
-        "oldElectronClientDescription1": "You appear to be using an old version of the Grommunio Meet client which has known security vulnerabilities. Please make sure you update to our ",
+        "oldElectronClientDescription1": "You appear to be using an old version of the grommunio meet client which has known security vulnerabilities. Please make sure you update to our ",
         "oldElectronClientDescription2": "latest build",
         "oldElectronClientDescription3": " now!",
         "participantWantsToJoin": "Wants to join the meeting",
@@ -1502,7 +1502,7 @@
         "go": "GO",
         "goSmall": "GO",
         "headerSubtitle": "Secure and high quality meetings",
-        "headerTitle": "Grommunio Meet",
+        "headerTitle": "grommunio meet",
         "info": "Dial-in info",
         "grommunioOnMobile": "Grommunio on mobile – download our apps and start a meeting from anywhere",
         "join": "CREATE / JOIN",

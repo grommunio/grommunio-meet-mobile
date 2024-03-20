@@ -469,7 +469,7 @@
         "answer": "Svara",
         "audioCallTitle": "Inkommande samtal",
         "decline": "Avvisa",
-        "productLabel": "från Grommunio Meet",
+        "productLabel": "från grommunio meet",
         "videoCallTitle": "Inkommande videosamtal"
     },
     "info": {
@@ -1419,7 +1419,7 @@
         "go": "KÖR",
         "goSmall": "BÖRJA",
         "headerSubtitle": "Säkra möten med hög kvalitet",
-        "headerTitle": "Grommunio Meet",
+        "headerTitle": "grommunio meet",
         "info": "Info",
         "grommunioOnMobile": "Grommunio på mobilen - ladda ner våra appar och starta ett möte var som helst",
         "join": "Gå med",

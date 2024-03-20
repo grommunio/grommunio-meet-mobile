@@ -440,7 +440,7 @@
         "answer": "wotmołwić",
         "audioCallTitle": "telefonat",
         "decline": "ok",
-        "productLabel": "wot Grommunio Meet",
+        "productLabel": "wot grommunio meet",
         "videoCallTitle": "widejo - telefonat"
     },
     "info": {
@@ -1292,7 +1292,7 @@
         "go": "startuj",
         "goSmall": "startuj",
         "headerSubtitle": "Wěste konferency we wysokej kwaliće",
-        "headerTitle": "Grommunio Meet",
+        "headerTitle": "grommunio meet",
         "info": "informacije za zawolenje",
         "grommunioOnMobile": "Grommunio po puću - cyle jednorje našu app downloadować a konferency wšudźe po puću startować",
         "join": "KREĚROWAĆ / PŘISTUPIĆ",
@@ -1300,7 +1300,7 @@
             "calendar": "protyka",
             "desktopPreviewThumbnail": "předpokazka za desktop thumbnail",
             "googleLogo": "Google logo",
-            "logoDeepLinking": "Grommunio Meet logo",
+            "logoDeepLinking": "grommunio meet logo",
             "microsoftLogo": "Microsoft logo",
             "policyLogo": "logo za směrnicy"
         },
