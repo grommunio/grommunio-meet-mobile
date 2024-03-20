@@ -3,7 +3,7 @@
 -- of participants that will be able to join in a room.
 -- Participants in muc_access_whitelist will not be counted for the
 -- max occupants value (values are jids like recorder@jitsi.meeet.example.com).
--- This module is configured under the muc component that is used for jitsi-meet
+-- This module is configured under the muc component that is used for grommunio-meet
 local split_jid = require "util.jid".split;
 local st = require "util.stanza";
 local it = require "util.iterators";

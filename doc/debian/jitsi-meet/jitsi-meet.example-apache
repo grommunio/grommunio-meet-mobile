@@ -1,24 +1,24 @@
 
 <VirtualHost *:80>
-    ServerName jitsi-meet.example.com
-    Redirect permanent / https://jitsi-meet.example.com/
+    ServerName grommunio-meet.example.com
+    Redirect permanent / https://grommunio-meet.example.com/
 </VirtualHost>
 
 <VirtualHost *:443>
-    ServerName jitsi-meet.example.com
+    ServerName grommunio-meet.example.com
 
     # enable HTTP/2, if available
     Protocols h2 http/1.1
 
     SSLEngine on
     SSLProxyEngine on
-    SSLCertificateFile /etc/jitsi/meet/jitsi-meet.example.com.crt
-    SSLCertificateKeyFile /etc/jitsi/meet/jitsi-meet.example.com.key
+    SSLCertificateFile /etc/jitsi/meet/grommunio-meet.example.com.crt
+    SSLCertificateKeyFile /etc/jitsi/meet/grommunio-meet.example.com.key
 
     Header always set Strict-Transport-Security "max-age=63072000"
 
-    DocumentRoot "/usr/share/jitsi-meet"
-    <Directory "/usr/share/jitsi-meet">
+    DocumentRoot "/usr/share/grommunio-meet"
+    <Directory "/usr/share/grommunio-meet">
         Options Indexes MultiViews Includes FollowSymLinks
         AddOutputFilter Includes html
         AllowOverride All
@@ -28,12 +28,12 @@
 
     ErrorDocument 404 /static/404.html
 
-    Alias "/config.js" "/etc/jitsi/meet/jitsi-meet.example.com-config.js"
+    Alias "/config.js" "/etc/jitsi/meet/grommunio-meet.example.com-config.js"
     <Location /config.js>
         Require all granted
     </Location>
 
-    Alias "/external_api.js" "/usr/share/jitsi-meet/libs/external_api.min.js"
+    Alias "/external_api.js" "/usr/share/grommunio-meet/libs/external_api.min.js"
     <Location /external_api.js>
         Require all granted
     </Location>

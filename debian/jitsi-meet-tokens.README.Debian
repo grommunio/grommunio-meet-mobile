@@ -1,7 +1,7 @@
-Token authentication plugin for Jitsi Meet
+Token authentication plugin for grommunio meet
 ----------------------------
 
-Jitsi Meet is a WebRTC video conferencing application. This package contains
-Prosody plugin which enables token authentication in Jitsi Meet installation.
+grommunio meet is a WebRTC video conferencing application. This package contains
+Prosody plugin which enables token authentication in grommunio meet installation.
 
  -- Pawel Domas <pawel.domas@jitsi.org>  Mon, 2 Nov 2015 14:45:00 -0600

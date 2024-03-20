@@ -1,14 +1,14 @@
 {
-  "android_package_name": "org.jitsi.meet",
+  "android_package_name": "com.grommunio.meet",
   "prefer_related_applications": true,
   "related_applications": [
     {
-      "id": "org.jitsi.meet",
+      "id": "com.grommunio.meet",
       "platform": "chromeos_play"
     }
   ],
-  "short_name": "Jitsi Meet",
-  "name": "Jitsi Meet",
+  "short_name": "grommunio meet",
+  "name": "grommunio meet",
   "icons": [
     {
       "src": "static/pwa/icons/icon192.png",

@@ -1,5 +1,5 @@
 {
-  "name": "jitsi-meet",
+  "name": "grommunio-meet",
   "version": "0.0.0",
   "description": "A sample app for the Jitsi Videobridge",
   "private": true,

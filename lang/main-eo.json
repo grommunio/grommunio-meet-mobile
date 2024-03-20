@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Aldoni ligilon al la kunveno",
-        "confirmAddLink": "Ĉu vi volas aldoni Jitsi-ligilon al ĉi-tiu evento?",
+        "confirmAddLink": "Ĉu vi volas aldoni Grommunio-ligilon al ĉi-tiu evento?",
         "error": {
             "appConfiguration": "Kalendara integrigo ne estas ĝuste agordita.",
             "generic": "Okazis eraro. Bonvolu kontroli viajn kalendarajn agordojn aŭ provu aktualigi la kalendaron.",
@@ -306,7 +306,7 @@
         "dismiss": "Formeti",
         "displayNameRequired": "Saluton! Kio estas via nomo?",
         "done": "Finita",
-        "e2eeDescription": "<p>Tutvoja ĉifrado estas nuntempe <strong>EKSPERIMENTA</strong>. Bonvolu vidi <a href='https://jitsi.org/blog/e2ee/' target='_blank'>ĉi tiun artikolon</a> por detaloj.</p><br/><p>Konsciu, ke ŝalti tutvojan ĉifradon efektive malebligos servilflankajn servojn kiel ekzemple: registradon, tujan elsendfluon kaj telefonan partoprenon. Konsciu ankaŭ, ke la kunveno funkcios nur por homoj, kiuj uzas retumilon subtenantan enmetatajn fluojn.</p>",
+        "e2eeDescription": "<p>Tutvoja ĉifrado estas nuntempe <strong>EKSPERIMENTA</strong>. Bonvolu vidi <a href='https://grommunio.org/blog/e2ee/' target='_blank'>ĉi tiun artikolon</a> por detaloj.</p><br/><p>Konsciu, ke ŝalti tutvojan ĉifradon efektive malebligos servilflankajn servojn kiel ekzemple: registradon, tujan elsendfluon kaj telefonan partoprenon. Konsciu ankaŭ, ke la kunveno funkcios nur por homoj, kiuj uzas retumilon subtenantan enmetatajn fluojn.</p>",
         "e2eeDisabledDueToMaxModeDescription": "Ne eblas ŝalti tutvoja ĉifrado pro granda kvanto da partoprenantoj en la prelego",
         "e2eeLabel": "Ŝlosilo",
         "e2eeWarning": "<br /><p><strong>ATENTIGO:</strong> Ne ĉiuj partoprenantoj en ĉi-tiu kunveno ŝajnas havi subtenon de tutvoja ĉifrado. Se vi ŝaltos ĝin, ili ne povos vidi aŭ aŭdi vin.</p>",
@@ -451,7 +451,7 @@
         "token": "ĵetono",
         "tokenAuthFailed": "Pardonu, vi ne rajtas aliĝi al ĉi-tiu voko.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Nevalida `aud` valoro. Ĝi estu `jitsi`.",
+            "audInvalid": "Nevalida `aud` valoro. Ĝi estu `grommunio`.",
             "contextNotFound": "La `context` objekto mankas de la portaĵo.",
             "expInvalid": "Nevalida `exp` valoro.",
             "featureInvalid": "Nevalida funkcio: {{feature}}, plej verŝajne, ne jam realigita.",
@@ -523,7 +523,7 @@
         "answer": "Respondi",
         "audioCallTitle": "Alvenanta voko",
         "decline": "Formeti",
-        "productLabel": "el Jitsi Meet",
+        "productLabel": "el Grommunio Meet",
         "videoCallTitle": "Alvenanta vida voko"
     },
     "info": {
@@ -580,7 +580,7 @@
         "searchPlaceholder": "Partoprenanto aŭ telefonnumero",
         "send": "Sendi"
     },
-    "jitsiHome": "{{logo}} Emblemo, ligilo al ĉefpaĝo",
+    "grommunioHome": "{{logo}} Emblemo, ligilo al ĉefpaĝo",
     "keyboardShortcuts": {
         "focusLocal": "Fokusigi vian propran videon",
         "focusRemote": "Fokusigi la videon de aliulo",
@@ -777,7 +777,7 @@
         "noiseSuppressionDesktopAudioDescription": "Neeblas aktivi la nuligon de bruo dum dividado de labortabla audio. Bonvolu malŝalti ĝin kaj provi denove. ",
         "noiseSuppressionFailedTitle": "Malsukcesis startigi la nuligon de bruo",
         "noiseSuppressionStereoDescription": "Forigo de bruo por stereosono ankoraŭ ne estas subtenata.",
-        "oldElectronClientDescription1": "Ŝajnas, ke vi uzas malnovan version de la kliento de Jitsi Meet, kiu havas konatajn sekurec-vundeblojn. Bonvolu ĝisdatigi al nia ",
+        "oldElectronClientDescription1": "Ŝajnas, ke vi uzas malnovan version de la kliento de Grommunio Meet, kiu havas konatajn sekurec-vundeblojn. Bonvolu ĝisdatigi al nia ",
         "oldElectronClientDescription2": "plej nova versio",
         "oldElectronClientDescription3": " nun!",
         "participantWantsToJoin": "Volas aliĝi al la kunveno",
@@ -1493,15 +1493,15 @@
         "go": "EK",
         "goSmall": "EK",
         "headerSubtitle": "Sekuraj kaj altkvalitaj renkontiĝoj",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "Grommunio Meet",
         "info": "Informoj",
-        "jitsiOnMobile": "Jitsi ĉe poŝtelefono - elŝutu niajn apojn kaj komencu renkontiĝon de ie ajn",
+        "grommunioOnMobile": "Grommunio ĉe poŝtelefono - elŝutu niajn apojn kaj komencu renkontiĝon de ie ajn",
         "join": "KREI / ALIĜI",
         "logo": {
             "calendar": "Kalendara",
             "desktopPreviewThumbnail": "Miniaturo de kundividado de ekrano",
             "googleLogo": "Logotipo de Google",
-            "logoDeepLinking": "Logotipo de Jitsi Meet",
+            "logoDeepLinking": "Logotipo de Grommunio Meet",
             "microsoftLogo": "Logotipo de Microsoft",
             "policyLogo": "Logotipo de regularo"
         },

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.app.Activity;
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for jitsi-meet-tokens
+# postrm script for grommunio-meet-tokens
 #
 # see: dh_installdeb(1)
 

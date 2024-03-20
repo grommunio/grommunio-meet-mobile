@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -33,7 +33,7 @@ import java.util.Map;
 class AppInfoModule
     extends ReactContextBaseJavaModule {
 
-    private static final String BUILD_CONFIG = "org.jitsi.meet.sdk.BuildConfig";
+    private static final String BUILD_CONFIG = "com.grommunio.meet.sdk.BuildConfig";
     public static final String NAME = "AppInfo";
     public static final boolean GOOGLE_SERVICES_ENABLED = getGoogleServicesEnabled();
     public static final boolean LIBRE_BUILD = getLibreBuild();

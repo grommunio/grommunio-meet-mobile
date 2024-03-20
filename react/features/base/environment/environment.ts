@@ -26,7 +26,7 @@ const browserNameToCheck = {
 };
 
 /**
- * Returns whether or not jitsi is optimized and targeted for the  provided
+ * Returns whether or not grommunio is optimized and targeted for the  provided
  * browser name.
  *
  * @param {string} browserName - The name of the browser to check.

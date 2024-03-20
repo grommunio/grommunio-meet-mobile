@@ -35,7 +35,7 @@ General questions regarding usage, installation, etc. should be posted at https:
 
 ### Server information:
 
-- Jitsi Meet version:
+- grommunio meet version:
 - Operating System:
 
 ### Client information:

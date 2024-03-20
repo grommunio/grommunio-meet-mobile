@@ -24,7 +24,7 @@ const ALWAYS_ON_TOP_FILENAMES = [
 
 /**
  * Maps the names of the commands expected by the API with the name of the
- * commands expected by jitsi-meet.
+ * commands expected by grommunio-meet.
  */
 const commands = {
     addBreakoutRoom: 'add-breakout-room',
@@ -96,7 +96,7 @@ const commands = {
 
 /**
  * Maps the names of the events expected by the API with the name of the
- * events expected by jitsi-meet.
+ * events expected by grommunio-meet.
  */
 const events = {
     'avatar-changed': 'avatarChanged',
@@ -199,7 +199,7 @@ function changeParticipantNumber(APIInstance, number) {
  * options defined in config.js to be overridden.
  * @param {Object} [options.interfaceConfigOverwrite] - Object containing
  * configuration options defined in interface_config.js to be overridden.
- * @param {string} [options.jwt] - The JWT token if needed by jitsi-meet for
+ * @param {string} [options.jwt] - The JWT token if needed by grommunio-meet for
  * authentication.
  * @param {string} [options.lang] - The meeting's default language.
  * @param {string} [options.roomName] - The name of the room to join.
@@ -296,7 +296,7 @@ function parseSizeParam(value) {
  */
 export default class JitsiMeetExternalAPI extends EventEmitter {
     /**
-     * Constructs new API instance. Creates iframe and loads Jitsi Meet in it.
+     * Constructs new API instance. Creates iframe and loads grommunio meet in it.
      *
      * @param {string} domain - The domain name of the server that hosts the
      * conference.
@@ -315,7 +315,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
      * @param {IIceServers} [options.iceServers] - Object with rules that will be used to modify/remove the existing
      * ice server configuration.
      * NOTE: This property is currently experimental and may be removed in the future!
-     * @param {string} [options.jwt] - The JWT token if needed by jitsi-meet for
+     * @param {string} [options.jwt] - The JWT token if needed by grommunio-meet for
      * authentication.
      * @param {string} [options.lang] - The meeting's default language.
      * @param {string} [options.onload] - The onload function that will listen
@@ -487,7 +487,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
 
 
     /**
-     * Getter for the large video element in Jitsi Meet.
+     * Getter for the large video element in grommunio meet.
      *
      * @returns {HTMLElement|undefined} - The large video.
      */
@@ -505,7 +505,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
     }
 
     /**
-     * Getter for the prejoin video element in Jitsi Meet.
+     * Getter for the prejoin video element in grommunio meet.
      *
      * @returns {HTMLElement|undefined} - The prejoin video.
      */
@@ -523,7 +523,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
     }
 
     /**
-     * Getter for participant specific video element in Jitsi Meet.
+     * Getter for participant specific video element in grommunio meet.
      *
      * @param {string|undefined} participantId - Id of participant to return the video for.
      *
@@ -847,7 +847,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
      * id: participantId //participantId of the new dominant speaker
      * }}
      * {@code suspendDetected} - receives event notifications about detecting suspend event in host computer.
-     * {@code readyToClose} - all hangup operations are completed and Jitsi Meet
+     * {@code readyToClose} - all hangup operations are completed and grommunio meet
      * is ready to be disposed.
      * @returns {void}
      *
@@ -873,7 +873,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
     }
 
     /**
-     * Removes the listeners and removes the Jitsi Meet frame.
+     * Removes the listeners and removes the grommunio meet frame.
      *
      * @returns {void}
      */
@@ -1211,7 +1211,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
     }
 
     /**
-     * Returns the iframe that loads Jitsi Meet.
+     * Returns the iframe that loads grommunio meet.
      *
      * @returns {HTMLElement} The iframe.
      */
@@ -1428,7 +1428,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
      * @param { string } options.mode - Recording mode, either `file` or `stream`.
      * @param { string } options.dropboxToken - Dropbox oauth2 token.
      * @param { boolean } options.shouldShare - Whether the recording should be shared with the participants or not.
-     * Only applies to certain jitsi meet deploys.
+     * Only applies to certain grommunio meet deploys.
      * @param { string } options.rtmpStreamKey - The RTMP stream key.
      * @param { string } options.rtmpBroadcastID - The RTMP broadcast ID.
      * @param { string } options.youtubeStreamKey - The youtube stream key.

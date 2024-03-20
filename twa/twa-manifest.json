@@ -1,8 +1,8 @@
 {
-  "packageId": "org.jitsi.meet",
+  "packageId": "com.grommunio.meet",
   "host": "meet.jit.si",
-  "name": "Jitsi Meet",
-  "launcherName": "Jitsi Meet",
+  "name": "grommunio meet",
+  "launcherName": "grommunio meet",
   "display": "standalone",
   "themeColor": "#17A0DB",
   "navigationColor": "#000000",

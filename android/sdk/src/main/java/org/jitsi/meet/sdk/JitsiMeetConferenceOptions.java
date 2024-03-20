@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.os.Bundle;
 import android.os.Parcel;
@@ -24,7 +24,7 @@ import java.net.URL;
 
 
 /**
- * This class represents the options when joining a Jitsi Meet conference. The user can create an
+ * This class represents the options when joining a grommunio meet conference. The user can create an
  * instance by using {@link JitsiMeetConferenceOptions.Builder} and setting the desired options
  * there.
  *

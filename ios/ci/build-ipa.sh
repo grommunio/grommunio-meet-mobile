@@ -6,7 +6,7 @@ set -e
 # PR_BRANCH - the branch to be merged, if set to "master" no merge will happen
 # IPA_DEPLOY_LOCATION - the location understandable by the "scp" command
 # executed at the end of the script to deploy the output .ipa file
-# LIB_JITSI_MEET_PKG (optional) - the npm package for lib-jitsi-meet which will
+# LIB_JITSI_MEET_PKG (optional) - the npm package for lib-grommunio-meet which will
 # be put in place of the current version in the package.json file.
 #
 # Other than that the script requires the following env variables to be set:
@@ -45,10 +45,10 @@ if [ $PR_BRANCH != "master" ]; then
     git pull https://github.com/${PR_REPO_SLUG}.git $PR_BRANCH --no-edit
 fi
 
-# Link this lib-jitsi-meet checkout in jitsi-meet through the package.json
+# Link this lib-grommunio-meet checkout in grommunio-meet through the package.json
 if [ ! -z ${LIB_JITSI_MEET_PKG} ];
 then
-    echo "Adjusting lib-jitsi-meet package in package.json to ${LIB_JITSI_MEET_PKG}"
+    echo "Adjusting lib-grommunio-meet package in package.json to ${LIB_JITSI_MEET_PKG}"
     # escape for the sed
     LIB_JITSI_MEET_PKG=$(echo $LIB_JITSI_MEET_PKG | sed -e 's/\\/\\\\/g; s/\//\\\//g; s/&/\\\&/g')
     sed -i.bak -e "s/\"lib-jitsi-meet.*/\"lib-jitsi-meet\"\: \"${LIB_JITSI_MEET_PKG}\",/g" package.json
@@ -80,24 +80,24 @@ cd ios
 pod install --repo-update --no-ansi
 cd ..
 
-mkdir -p /tmp/jitsi-meet/
+mkdir -p /tmp/grommunio-meet/
 
-xcodebuild archive -quiet -workspace ios/jitsi-meet.xcworkspace -scheme jitsi-meet -configuration Release -archivePath /tmp/jitsi-meet/jitsi-meet.xcarchive
+xcodebuild archive -quiet -workspace ios/jitsi-meet.xcworkspace -scheme grommunio-meet -configuration Release -archivePath /tmp/jitsi-meet/jitsi-meet.xcarchive
 
 sed -e "s/YOUR_TEAM_ID/${IOS_TEAM_ID}/g" ios/ci/build-ipa.plist.template > ios/ci/build-ipa.plist
 
-IPA_EXPORT_DIR=/tmp/jitsi-meet/jitsi-meet-ipa
+IPA_EXPORT_DIR=/tmp/grommunio-meet/grommunio-meet-ipa
 
-xcodebuild -quiet -exportArchive -archivePath /tmp/jitsi-meet/jitsi-meet.xcarchive -exportPath $IPA_EXPORT_DIR  -exportOptionsPlist ios/ci/build-ipa.plist
+xcodebuild -quiet -exportArchive -archivePath /tmp/grommunio-meet/jitsi-meet.xcarchive -exportPath $IPA_EXPORT_DIR  -exportOptionsPlist ios/ci/build-ipa.plist
 
 echo "Will try deploy the .ipa to: ${IPA_DEPLOY_LOCATION}"
 
 if [ ! -z ${SCP_PROXY_HOST} ];
 then
-    scp -o ProxyCommand="ssh -t -A -l %r ${SCP_PROXY_HOST} -o \"StrictHostKeyChecking no\" -o \"BatchMode yes\" -W %h:%p"  -o StrictHostKeyChecking=no -o LogLevel=DEBUG "${IPA_EXPORT_DIR}/jitsi-meet.ipa" "${IPA_DEPLOY_LOCATION}"
+    scp -o ProxyCommand="ssh -t -A -l %r ${SCP_PROXY_HOST} -o \"StrictHostKeyChecking no\" -o \"BatchMode yes\" -W %h:%p"  -o StrictHostKeyChecking=no -o LogLevel=DEBUG "${IPA_EXPORT_DIR}/grommunio-meet.ipa" "${IPA_DEPLOY_LOCATION}"
 else
-    scp -o StrictHostKeyChecking=no -o LogLevel=DEBUG "${IPA_EXPORT_DIR}/jitsi-meet.ipa" "${IPA_DEPLOY_LOCATION}"
+    scp -o StrictHostKeyChecking=no -o LogLevel=DEBUG "${IPA_EXPORT_DIR}/grommunio-meet.ipa" "${IPA_DEPLOY_LOCATION}"
 fi
 
-rm -r /tmp/jitsi-meet/
+rm -r /tmp/grommunio-meet/
 rm -r $CERT_DIR

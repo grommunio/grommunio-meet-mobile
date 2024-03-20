@@ -1,9 +1,9 @@
 import { browser } from '../base/lib-jitsi-meet';
 
 /**
- * Returns true if Jitsi Meet is running in too old jitsi-meet-electron app and false otherwise.
+ * Returns true if grommunio meet is running in too old grommunio-meet-electron app and false otherwise.
  *
- * @returns {boolean} - True if Jitsi Meet is running in too old jitsi-meet-electron app and false otherwise.
+ * @returns {boolean} - True if grommunio meet is running in too old grommunio-meet-electron app and false otherwise.
  */
 export function isOldJitsiMeetElectronApp() {
     if (!browser.isElectron()) {

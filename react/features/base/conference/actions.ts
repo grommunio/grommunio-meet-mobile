@@ -362,7 +362,7 @@ export function conferenceFailed(conference: IJitsiConference, error: string, ..
         conference,
 
         // Make the error resemble an Error instance (to the extent that
-        // jitsi-meet needs it).
+        // grommunio-meet needs it).
         error: {
             name: error,
             params,

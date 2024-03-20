@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for jitsi-meet-prosody
+# postrm script for grommunio-meet-prosody
 #
 # see: dh_installdeb(1)
 

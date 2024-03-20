@@ -8,7 +8,7 @@ const webpack = require('webpack');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 /**
- * The URL of the Jitsi Meet deployment to be proxy to in the context of
+ * The URL of the grommunio meet deployment to be proxy to in the context of
  * development with webpack-dev-server.
  */
 const devServerProxyTarget
@@ -86,7 +86,7 @@ function devServerProxyBypass({ path }) {
 
 /**
  * The base Webpack configuration to bundle the JavaScript artifacts of
- * jitsi-meet such as app.bundle.js and external_api.js.
+ * grommunio-meet such as app.bundle.js and external_api.js.
  *
  * @param {Object} options - options for the bundles configuration.
  * @param {boolean} options.detectCircularDeps - whether to detect circular dependencies or not.
@@ -111,7 +111,7 @@ function getConfig(options = {}) {
 
                     // XXX The require.resolve below solves failures to locate the
                     // presets when lib-jitsi-meet, for example, is npm linked in
-                    // jitsi-meet.
+                    // grommunio-meet.
                     plugins: [
                         require.resolve('@babel/plugin-proposal-export-default-from')
                     ],

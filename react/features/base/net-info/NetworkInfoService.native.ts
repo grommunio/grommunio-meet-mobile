@@ -9,7 +9,7 @@ import type { NetworkInfo } from './types';
 
 /**
  * The network info service implementation for iOS and Android. 'react-native-netinfo' seems to support windows as well,
- * but that has not been tested and is nto used by jitsi-meet.
+ * but that has not been tested and is nto used by grommunio-meet.
  */
 export default class NetworkInfoService extends EventEmitter {
     /**
@@ -18,7 +18,7 @@ export default class NetworkInfoService extends EventEmitter {
     _subscription?: NetInfoSubscription;
 
     /**
-     * Converts library's structure to {@link NetworkInfo} used by jitsi-meet.
+     * Converts library's structure to {@link NetworkInfo} used by grommunio-meet.
      *
      * @param {NetInfoState} netInfoState - The new state given by the native library.
      * @private

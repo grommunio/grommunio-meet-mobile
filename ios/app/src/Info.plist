@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Jitsi Meet</string>
+	<string>grommunio meet</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,10 +26,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>org.jitsi.meet</string>
+			<string>com.grommunio.meet</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>org.jitsi.meet</string>
+				<string>com.grommunio.meet</string>
 			</array>
 		</dict>
 		<dict>
@@ -77,9 +77,9 @@
 		<string>org.jitsi.JitsiMeet.ios.conference</string>
 	</array>
 	<key>RTCAppGroupIdentifier</key>
-	<string>group.org.jitsi.meet.appgroup</string>
+	<string>group.com.grommunio.meet.appgroup</string>
 	<key>RTCScreenSharingExtension</key>
-	<string>org.jitsi.meet.broadcast.extension</string>
+	<string>com.grommunio.meet.broadcast.extension</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

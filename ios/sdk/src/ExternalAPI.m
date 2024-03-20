@@ -17,17 +17,17 @@
 #import "ExternalAPI.h"
 
 // Events
-static NSString * const hangUpAction = @"org.jitsi.meet.HANG_UP";
-static NSString * const setAudioMutedAction = @"org.jitsi.meet.SET_AUDIO_MUTED";
-static NSString * const sendEndpointTextMessageAction = @"org.jitsi.meet.SEND_ENDPOINT_TEXT_MESSAGE";
-static NSString * const toggleScreenShareAction = @"org.jitsi.meet.TOGGLE_SCREEN_SHARE";
-static NSString * const retrieveParticipantsInfoAction = @"org.jitsi.meet.RETRIEVE_PARTICIPANTS_INFO";
-static NSString * const openChatAction = @"org.jitsi.meet.OPEN_CHAT";
-static NSString * const closeChatAction = @"org.jitsi.meet.CLOSE_CHAT";
-static NSString * const sendChatMessageAction = @"org.jitsi.meet.SEND_CHAT_MESSAGE";
-static NSString * const setVideoMutedAction = @"org.jitsi.meet.SET_VIDEO_MUTED";
-static NSString * const setClosedCaptionsEnabledAction = @"org.jitsi.meet.SET_CLOSED_CAPTIONS_ENABLED";
-static NSString * const toggleCameraAction = @"org.jitsi.meet.TOGGLE_CAMERA";
+static NSString * const hangUpAction = @"com.grommunio.meet.HANG_UP";
+static NSString * const setAudioMutedAction = @"com.grommunio.meet.SET_AUDIO_MUTED";
+static NSString * const sendEndpointTextMessageAction = @"com.grommunio.meet.SEND_ENDPOINT_TEXT_MESSAGE";
+static NSString * const toggleScreenShareAction = @"com.grommunio.meet.TOGGLE_SCREEN_SHARE";
+static NSString * const retrieveParticipantsInfoAction = @"com.grommunio.meet.RETRIEVE_PARTICIPANTS_INFO";
+static NSString * const openChatAction = @"com.grommunio.meet.OPEN_CHAT";
+static NSString * const closeChatAction = @"com.grommunio.meet.CLOSE_CHAT";
+static NSString * const sendChatMessageAction = @"com.grommunio.meet.SEND_CHAT_MESSAGE";
+static NSString * const setVideoMutedAction = @"com.grommunio.meet.SET_VIDEO_MUTED";
+static NSString * const setClosedCaptionsEnabledAction = @"com.grommunio.meet.SET_CLOSED_CAPTIONS_ENABLED";
+static NSString * const toggleCameraAction = @"com.grommunio.meet.TOGGLE_CAMERA";
 
 @implementation ExternalAPI
 

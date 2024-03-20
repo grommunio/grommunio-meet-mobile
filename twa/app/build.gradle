@@ -19,11 +19,11 @@ import groovy.xml.MarkupBuilder
 apply plugin: 'com.android.application'
 
 def twaManifest = [
-    applicationId: 'org.jitsi.meet',
+    applicationId: 'com.grommunio.meet',
     hostName: 'meet.jit.si', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'Jitsi Meet', // The application name.
-    launcherName: 'Jitsi Meet', // The name shown on the Android Launcher.
+    name: 'grommunio meet', // The application name.
+    launcherName: 'grommunio meet', // The name shown on the Android Launcher.
     themeColor: '#17A0DB', // The color used for the status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
@@ -49,7 +49,7 @@ def twaManifest = [
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "org.jitsi.meet"
+        applicationId "com.grommunio.meet"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 2000000000

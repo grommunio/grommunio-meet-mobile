@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -34,7 +34,7 @@ import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -121,7 +121,7 @@ class AudioModeModule extends ReactContextBaseJavaModule {
     /**
      * Device change event.
      */
-    private static final String DEVICE_CHANGE_EVENT = "org.jitsi.meet:features/audio-mode#devices-update";
+    private static final String DEVICE_CHANGE_EVENT = "com.grommunio.meet:features/audio-mode#devices-update";
 
     /**
      * List of currently available audio devices.

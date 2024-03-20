@@ -21,10 +21,10 @@ function onFakeLocalStorageChanged() {
 }
 
 /**
- * Checks if the local storage of the host page needs to be used instead jitsi-meet's local storage.
+ * Checks if the local storage of the host page needs to be used instead grommunio-meet's local storage.
  *
  * @param {Object} urlParams - Object with parsed URL params.
- * @returns {boolean} - True if the local storage of the host page needs to be used instead jitsi-meet's local storage
+ * @returns {boolean} - True if the local storage of the host page needs to be used instead grommunio-meet's local storage
  * and false otherwise.
  */
 function shouldUseHostPageLocalStorage(urlParams: { 'config.useHostPageLocalStorage'?: boolean; }) {

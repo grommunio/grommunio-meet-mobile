@@ -70,10 +70,10 @@ export const VIDEO_MUTE = 'video.mute';
 
 /**
  * Creates an event which indicates that a certain action was requested through
- * the jitsi-meet API.
+ * the grommunio-meet API.
  *
  * @param {string} action - The action which was requested through the
- * jitsi-meet API.
+ * grommunio-meet API.
  * @param {Object} attributes - Attributes to attach to the event.
  * @returns {Object} The event in a format suitable for sending via
  * sendAnalytics.

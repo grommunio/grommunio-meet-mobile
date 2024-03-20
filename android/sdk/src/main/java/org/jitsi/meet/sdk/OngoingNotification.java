@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package com.grommunio.meet.sdk;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import com.grommunio.meet.sdk.log.JitsiMeetLogger;
 
 import android.app.Activity;
 import android.app.NotificationChannel;

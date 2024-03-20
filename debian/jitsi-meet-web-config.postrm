@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for jitsi-meet-web-config
+# postrm script for grommunio-meet-web-config
 #
 # see: dh_installdeb(1)
 

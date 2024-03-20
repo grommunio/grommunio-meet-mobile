@@ -1,4 +1,4 @@
-# The build artifacts of the jitsi-meet project.
+# The build artifacts of the grommunio-meet project.
 build/*
 
 doc/*

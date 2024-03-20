@@ -9,7 +9,7 @@
  */
 
 var interfaceConfig = {
-    APP_NAME: 'Jitsi Meet',
+    APP_NAME: 'grommunio meet',
     AUDIO_LEVEL_PRIMARY_COLOR: 'rgba(255,255,255,0.4)',
     AUDIO_LEVEL_SECONDARY_COLOR: 'rgba(255,255,255,0.2)',
 
@@ -96,7 +96,7 @@ var interfaceConfig = {
     MAXIMUM_ZOOMING_COEFFICIENT: 1.3,
 
     /**
-     * Whether the mobile app Jitsi Meet is to be promoted to participants
+     * Whether the mobile app grommunio meet is to be promoted to participants
      * attempting to join a conference in a mobile Web browser. If
      * {@code undefined}, defaults to {@code true}.
      *
@@ -194,20 +194,20 @@ var interfaceConfig = {
     /**
      * Specify custom URL for downloading android mobile app.
      */
-    // MOBILE_DOWNLOAD_LINK_ANDROID: 'https://play.google.com/store/apps/details?id=org.jitsi.meet',
+    // MOBILE_DOWNLOAD_LINK_ANDROID: 'https://play.google.com/store/apps/details?id=com.grommunio.meet',
 
     /**
      * Specify mobile app scheme for opening the app from the mobile browser.
      */
-    // APP_SCHEME: 'org.jitsi.meet',
+    // APP_SCHEME: 'com.grommunio.meet',
 
-    // NATIVE_APP_NAME: 'Jitsi Meet',
+    // NATIVE_APP_NAME: 'grommunio meet',
 
     /**
      * Specify Firebase dynamic link properties for the mobile apps.
      */
     // MOBILE_DYNAMIC_LINK: {
-    //    APN: 'org.jitsi.meet',
+    //    APN: 'com.grommunio.meet',
     //    APP_CODE: 'w2atb',
     //    CUSTOM_DOMAIN: undefined,
     //    IBI: 'com.atlassian.JitsiMeet.ios',
@@ -222,12 +222,12 @@ var interfaceConfig = {
     /**
      * Specify the Android app package name.
      */
-    // ANDROID_APP_PACKAGE: 'org.jitsi.meet',
+    // ANDROID_APP_PACKAGE: 'com.grommunio.meet',
 
     /**
      * Specify custom URL for downloading f droid app.
      */
-    // MOBILE_DOWNLOAD_LINK_F_DROID: 'https://f-droid.org/en/packages/org.jitsi.meet/',
+    // MOBILE_DOWNLOAD_LINK_F_DROID: 'https://f-droid.org/en/packages/com.grommunio.meet/',
 
     // Connection indicators (
     // CONNECTION_INDICATOR_AUTO_HIDE_ENABLED,

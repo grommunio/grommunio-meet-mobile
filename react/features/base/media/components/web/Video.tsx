@@ -345,7 +345,7 @@ class Video extends Component<IProps> {
 
     /**
      * Removes the association to the component's video element from the passed
-     * in redux representation of jitsi video track to stop the track from
+     * in redux representation of grommunio video track to stop the track from
      * rendering.
      *
      * @param {Object} videoTrack -  The redux representation of the

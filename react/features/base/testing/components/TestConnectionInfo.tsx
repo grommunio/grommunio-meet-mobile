@@ -76,7 +76,7 @@ type State = {
 };
 
 /**
- * The component will expose some of the app state to the jitsi-meet-torture
+ * The component will expose some of the app state to the grommunio-meet-torture
  * through the UI accessibility layer which is visible to the tests. The Web
  * tests currently will execute JavaScript and access globals variables to learn
  * this information, but there's no such option on React Native(maybe that's
@@ -178,19 +178,19 @@ class TestConnectionInfo extends Component<IProps, State> {
         return (
             <Fragment>
                 <TestHint
-                    id = 'org.jitsi.meet.conference.connectionState'
+                    id = 'com.grommunio.meet.conference.connectionState'
                     value = { this.props._conferenceConnectionState } />
                 <TestHint
-                    id = 'org.jitsi.meet.conference.joinedState'
+                    id = 'com.grommunio.meet.conference.joinedState'
                     value = { this.props._conferenceJoinedState } />
                 <TestHint
-                    id = 'org.jitsi.meet.conference.grantModeratorAvailable'
+                    id = 'com.grommunio.meet.conference.grantModeratorAvailable'
                     value = { 'true' } />
                 <TestHint
-                    id = 'org.jitsi.meet.conference.localParticipantRole'
+                    id = 'com.grommunio.meet.conference.localParticipantRole'
                     value = { this.props._localUserRole } />
                 <TestHint
-                    id = 'org.jitsi.meet.stats.rtp'
+                    id = 'com.grommunio.meet.stats.rtp'
                     value = { JSON.stringify(this.state.stats) } />
             </Fragment>
         );

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet;
+package com.grommunio.meet;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -30,9 +30,9 @@ import android.view.KeyEvent;
 
 import androidx.annotation.Nullable;
 
-import org.jitsi.meet.sdk.JitsiMeet;
-import org.jitsi.meet.sdk.JitsiMeetActivity;
-import org.jitsi.meet.sdk.JitsiMeetConferenceOptions;
+import com.grommunio.meet.sdk.JitsiMeet;
+import com.grommunio.meet.sdk.JitsiMeetActivity;
+import com.grommunio.meet.sdk.JitsiMeetConferenceOptions;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
@@ -41,7 +41,7 @@ import java.util.Collection;
 import java.util.HashMap;
 
 /**
- * The one and only Activity that the Jitsi Meet app needs. The
+ * The one and only Activity that the grommunio meet app needs. The
  * {@code Activity} is launched in {@code singleTask} mode, so it will be
  * created upon application initialization and there will be a single instance
  * of it. Further attempts at launching the application once it was already
@@ -92,7 +92,7 @@ public class MainActivity extends JitsiMeetActivity {
         // Setup Crashlytics and Firebase Dynamic Links
         // Here we are using reflection since it may have been disabled at compile time.
         try {
-            Class<?> cls = Class.forName("org.jitsi.meet.GoogleServicesHelper");
+            Class<?> cls = Class.forName("com.grommunio.meet.GoogleServicesHelper");
             Method m = cls.getMethod("initialize", JitsiMeetActivity.class);
             m.invoke(null, this);
         } catch (Exception e) {

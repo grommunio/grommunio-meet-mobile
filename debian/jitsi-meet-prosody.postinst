@@ -1,5 +1,5 @@
 #!/bin/bash
-# postinst script for jitsi-meet-prosody
+# postinst script for grommunio-meet-prosody
 #
 # see: dh_installdeb(1)
 
@@ -27,7 +27,7 @@ case "$1" in
         # loading debconf
         . /usr/share/debconf/confmodule
 
-        # try to get host from jitsi-videobridge
+        # try to get host from grommunio-videobridge
         db_get jitsi-videobridge/jvb-hostname
         if [ -z "$RET" ] ; then
             # server hostname
@@ -166,7 +166,7 @@ case "$1" in
             PROSODY_CONFIG_PRESENT="false"
         fi
 
-        # Old versions of jitsi-meet-prosody come with the extra plugin path commented out (https://github.com/jitsi/jitsi-meet/commit/e11d4d3101e5228bf956a69a9e8da73d0aee7949)
+        # Old versions of grommunio-meet-prosody come with the extra plugin path commented out (https://github.com/jitsi/jitsi-meet/commit/e11d4d3101e5228bf956a69a9e8da73d0aee7949)
         # Make sure it is uncommented, as it contains required modules.
         if grep -q -- '--plugin_paths = { "/usr/share/jitsi-meet/prosody-plugins/" }' $PROSODY_HOST_CONFIG ;then
             sed -i 's#--plugin_paths = { "/usr/share/jitsi-meet/prosody-plugins/" }#plugin_paths = { "/usr/share/jitsi-meet/prosody-plugins/" }#g' $PROSODY_HOST_CONFIG
@@ -192,7 +192,7 @@ case "$1" in
             PROSODY_CONFIG_PRESENT="false"
         fi
 
-        # For those deployments that don't have the config in the jitsi-meet prosody config add the new jaas file
+        # For those deployments that don't have the config in the grommunio-meet prosody config add the new jaas file
         if [ ! -f $JAAS_HOST_CONFIG ] && ! grep -q "VirtualHost \"jigasi.meet.jitsi\"" $PROSODY_HOST_CONFIG; then
             PROSODY_CONFIG_PRESENT="false"
             cp /usr/share/jitsi-meet-prosody/jaas.cfg.lua $JAAS_HOST_CONFIG

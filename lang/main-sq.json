@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Shtoni një lidhje takimi",
-        "confirmAddLink": "Doni të shtohet një lidhje Jitsi te kjo veprimtari?",
+        "confirmAddLink": "Doni të shtohet një lidhje Grommunio te kjo veprimtari?",
         "error": {
             "appConfiguration": "Integrimi i kalendarëve s’është formësuar si duhet.",
             "generic": "Ndodhi një gabim. Ju lutemi, kontrolloni rregullimet për kalendarin tuaj, ose provoni të rifreskoni kalendarin.",
@@ -454,7 +454,7 @@
         "token": "token",
         "tokenAuthFailed": "Na ndjeni, s’keni leje të merrni pjesë në këtë thirrje.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Vlerë `aud` e pavlefshme. Duhet të jetë `jitsi`.",
+            "audInvalid": "Vlerë `aud` e pavlefshme. Duhet të jetë `grommunio`.",
             "contextNotFound": "Prej ngarkesës mungon objekti `context`.",
             "expInvalid": "Vlerë `exp` e pavlefshme.",
             "featureInvalid": "Veçori e pavlefshme: {{feature}}, gjasat janë të mos jetë sendërtuar ende.",
@@ -526,7 +526,7 @@
         "answer": "Përgjigjuni",
         "audioCallTitle": "Thirrje ardhëse",
         "decline": "Hidhe tej",
-        "productLabel": "nga Jitsi Meet",
+        "productLabel": "nga Grommunio Meet",
         "videoCallTitle": "Thirrje ardhëse me video"
     },
     "info": {
@@ -585,7 +585,7 @@
         "searchPlaceholder": "Pjesëmarrës ose numër telefoni",
         "send": "Dërgoje"
     },
-    "jitsiHome": "Stemë {{logo}}, lidhje për te Faqja Hyrëse",
+    "grommunioHome": "Stemë {{logo}}, lidhje për te Faqja Hyrëse",
     "keyboardShortcuts": {
         "focusLocal": "Fokusi te videoja juaj",
         "focusRemote": "Fokusi te videoja e një personi tjetër",
@@ -734,7 +734,7 @@
         "dataChannelClosed": "Rënie cilësie videoje",
         "dataChannelClosedDescription": "Kanali urë u shkëput, kështu që cilësia e videos është kufizuar te vlera më e ulët.",
         "disabledIframe": "Trupëzimi është menduar vetëm për qëllime demonstrimi, ndaj kjo thirrje do të ndërpritet pas {{timeout}} minutash.",
-        "disabledIframeSecondary": "Trupëzimi i {{domain}} është menduar vetëm për qëllime demonstrimi, ndaj kjo thirrje do të ndërpritet pas {{timeout}} minutash. Ju lutemi, për trupëzime të njëmendta përdorni <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi as a Service</a>!",
+        "disabledIframeSecondary": "Trupëzimi i {{domain}} është menduar vetëm për qëllime demonstrimi, ndaj kjo thirrje do të ndërpritet pas {{timeout}} minutash. Ju lutemi, për trupëzime të njëmendta përdorni <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Grommunio as a Service</a>!",
         "disconnected": "u shkëput",
         "displayNotifications": "Shfaq njoftime për",
         "dontRemindMe": "Mos ma kujto",
@@ -782,7 +782,7 @@
         "noiseSuppressionDesktopAudioDescription": "Mbytja e zhurmave s’mund të aktivizohet teksa ndahet me të tjerët audioja e desktopit, ju lutemi, çaktivizojeni dhe riprovoni.",
         "noiseSuppressionFailedTitle": "S’u arrit të nisej mbytja e zhurmave",
         "noiseSuppressionStereoDescription": "Aktualisht nuk mbulohet mbytje zhurmash audioje stereo.",
-        "oldElectronClientDescription1": "Duket se përdorni një version të vjetër të klientit Jitsi Meet, i cili ka cenueshmëri të ditura sigurie. Ju lutemi, siguroni përditësimin me ",
+        "oldElectronClientDescription1": "Duket se përdorni një version të vjetër të klientit Grommunio Meet, i cili ka cenueshmëri të ditura sigurie. Ju lutemi, siguroni përditësimin me ",
         "oldElectronClientDescription2": "montimin tonë më të ri",
         "oldElectronClientDescription3": " që tani!",
         "participantWantsToJoin": "Dëshiron të hyjë në takim",
@@ -1497,15 +1497,15 @@
         "go": "SHKO",
         "goSmall": "SHKO",
         "headerSubtitle": "Takime me siguri dhe me cilësi të lartë",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "Grommunio Meet",
         "info": "Hollësi për t’i rënë numrit",
-        "jitsiOnMobile": "Jitsi në celular – Shkarkoni aplikacionet tona dhe nisni një takim prej ngado",
+        "grommunioOnMobile": "Grommunio në celular – Shkarkoni aplikacionet tona dhe nisni një takim prej ngado",
         "join": "KRIJONI / MERRNI PJESË",
         "logo": {
             "calendar": "Stemë kalendari",
             "desktopPreviewThumbnail": "Miniaturë paraparjeje desktopi",
             "googleLogo": "Stemë Google-i",
-            "logoDeepLinking": "Stemë “Jitsi meet”",
+            "logoDeepLinking": "Stemë “Grommunio meet”",
             "microsoftLogo": "Stemë Microsoft-i",
             "policyLogo": "Stemë Rregullash"
         },

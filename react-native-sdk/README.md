@@ -1,4 +1,4 @@
-# <p align="center">Jitsi Meet React Native SDK</p>
+# <p align="center">grommunio meet React Native SDK</p>
 
 
 ## Installation
@@ -76,7 +76,7 @@ cd ios && pod install && cd ..
 - In `android/app/src/main/AndroidManifest.xml`, under the `</application>` tag, include
     ```xml
    <service
-       android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService"
+       android:name="com.grommunio.meet.sdk.JitsiMeetOngoingConferenceService"
        android:foregroundServiceType="mediaProjection" />
     ```
   This will take care of the screen share feature.

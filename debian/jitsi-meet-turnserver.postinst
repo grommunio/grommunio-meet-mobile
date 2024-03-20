@@ -1,5 +1,5 @@
 #!/bin/bash
-# postinst script for jitsi-meet-turnserver
+# postinst script for grommunio-meet-turnserver
 #
 # see: dh_installdeb(1)
 
@@ -22,7 +22,7 @@ case "$1" in
         # loading debconf
         . /usr/share/debconf/confmodule
 
-        # try to get host from jitsi-videobridge
+        # try to get host from grommunio-videobridge
         db_get jitsi-videobridge/jvb-hostname
         if [ -z "$RET" ] ; then
             # server hostname
@@ -59,7 +59,7 @@ case "$1" in
 
             if grep -q "jitsi-meet coturn config" "$TURN_CONFIG" && ! grep -q "jitsi-meet coturn relay disable config" "$TURN_CONFIG" ; then
                 echo "Updating coturn config"
-                echo "# jitsi-meet coturn relay disable config. Do not modify this line
+                echo "# grommunio-meet coturn relay disable config. Do not modify this line
 no-multicast-peers
 no-cli
 no-loopback-peers

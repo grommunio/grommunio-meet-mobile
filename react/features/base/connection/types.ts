@@ -2,7 +2,7 @@
  * The error structure passed to the {@link connectionFailed} action.
  *
  * Note there was an intention to make the error resemble an Error instance (to
- * the extent that jitsi-meet needs it).
+ * the extent that grommunio-meet needs it).
  */
 export type ConnectionFailedError = {
 
