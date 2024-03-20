@@ -16,7 +16,7 @@ const LinksSection = () => {
         privacy,
         helpCentre,
         terms
-    } = useSelector((state: IReduxState) => getLegalUrls(state));
+    } = useSelector(() => getLegalUrls());
 
     const links = useMemo(() => [
         {
