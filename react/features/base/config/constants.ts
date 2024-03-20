@@ -30,14 +30,14 @@ export const FEATURE_FLAGS = {
 /**
  * The URL at which the terms (of service/use) are available to the user.
  */
-export const DEFAULT_TERMS_URL = 'https://jitsi.org/meet/terms';
+export const DEFAULT_TERMS_URL = 'https://grommunio.com/wp-content/uploads/2021/09/AGB_grommunio_EN_01OCT21.pdf';
 
 /**
  * The URL at which the privacy policy is available to the user.
  */
-export const DEFAULT_PRIVACY_URL = 'https://jitsi.org/meet/privacy';
+export const DEFAULT_PRIVACY_URL = 'https://grommunio.com/privacy';
 
 /**
  * The URL at which the help centre is available to the user.
  */
-export const DEFAULT_HELP_CENTRE_URL = 'https://web-cdn.jitsi.net/faq/meet-faq.html';
+export const DEFAULT_HELP_CENTRE_URL = 'https://docs.grommunio.com/index.html';

@@ -317,13 +317,10 @@ export function getSecurityUiConfig(state: IReduxState) {
  *  terms: string
  * }}
  */
-export function getLegalUrls(state: IReduxState) {
-    const helpCentreURL = state['features/base/config']?.helpCentreURL;
-    const configLegalUrls = state['features/base/config']?.legalUrls;
-
+export function getLegalUrls() {
     return {
-        privacy: configLegalUrls?.privacy || DEFAULT_PRIVACY_URL,
-        helpCentre: helpCentreURL || configLegalUrls?.helpCentre || DEFAULT_HELP_CENTRE_URL,
-        terms: configLegalUrls?.terms || DEFAULT_TERMS_URL
+        privacy: DEFAULT_PRIVACY_URL,
+        helpCentre: DEFAULT_HELP_CENTRE_URL,
+        terms: DEFAULT_TERMS_URL
     };
 }
