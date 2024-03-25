@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>24.0.1</string>
+	<string>100.0.0</string>
 	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string>com.grommunio.meet</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -44,7 +44,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>4</string>
 	<key>FirebaseCrashlyticsCollectionEnabled</key>
 	<string>false</string>
 	<key>FirebaseScreenReportingEnabled</key>
@@ -79,7 +79,7 @@
 	<key>RTCAppGroupIdentifier</key>
 	<string>group.com.grommunio.meet.appgroup</string>
 	<key>RTCScreenSharingExtension</key>
-	<string>com.grommunio.meet.broadcast.extension</string>
+	<string>com.grommunio.meet.broadcastextension</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
