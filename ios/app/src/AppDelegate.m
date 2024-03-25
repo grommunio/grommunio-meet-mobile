@@ -31,7 +31,7 @@
 
     jitsiMeet.conferenceActivityType = JitsiMeetConferenceActivityType;
     jitsiMeet.customUrlScheme = @"com.grommunio.meet";
-    jitsiMeet.universalLinkDomains = @[@"meet.jit.si", @"alpha.jitsi.net", @"beta.meet.jit.si"];
+    jitsiMeet.universalLinkDomains = @[@"mail.grommunio.com/meet"];
 
     jitsiMeet.defaultConferenceOptions = [JitsiMeetConferenceOptions fromBuilder:^(JitsiMeetConferenceOptionsBuilder *builder) {
         [builder setFeatureFlag:@"welcomepage.enabled" withBoolean:YES];
