@@ -100,7 +100,7 @@ export function getPropertyValue(
 export function getServerURL(stateful: IStateful) {
     const state = toState(stateful);
 
-    return state['features/base/settings'].serverURL || DEFAULT_SERVER_URL;
+    return DEFAULT_SERVER_URL;
 }
 
 /**
