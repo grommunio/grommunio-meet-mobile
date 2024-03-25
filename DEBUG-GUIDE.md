@@ -29,7 +29,11 @@ via Android Studio
  -> `./android/app/release/app-release.apk` / `./android/app/release/app-release.aab`
 
 
-## Debugging
+## Troubleshooting
+
+### App export does not include changes
+
+- Rebuild app (hammer)
 
 ### Reinstall node modules
 
